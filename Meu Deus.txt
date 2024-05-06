@@ -1,0 +1,5 @@
+select * from pessoas inner join vendas on pessoas.id = vendas.fk_pessoa inner join funcionario on funcionario.id = vendas.fk_funcionario inner join produtos_vendas on vendas.id = produtos_vendas.fk_venda on produtos.id = produtos_vendas.fk_produto;
+
+select vendas.data_venda as "Data da Venda", vendas.preco_venda as "Preço", pessoas.nome, pessoas.cpf, produtos.produto, produtos.tamanho, produtos.cor, funcionario.usuario as "Funcionarios" from pessoas inner join vendas on pessoas.id = vendas.fk_pessoa inner join funcionario on funcionario.id = vendas.fk_funcionario inner join produtos_vendas on vendas.id = produtos_vendas.fk_venda inner join produtos on produtos.id = produtos_vendas.fk_produto where pessoas.nome LIKE = "%Z%";
+
+select pessoas.nome, pessoas.sobrenome, produtos.produto, produtos_vendas.qtd, produtos_vendas.preco, vendas.data_venda, venda.preco_venda from pessoas inner join vendas on vendas, produtos_vendas ;

@@ -1,0 +1,29 @@
+Endereco
+
+SELECT * FROM cadastro.tbl_endereco;
+
+INSERT INTO tbl_endereco (logradouro, bairro, cidade, uf, cep) VALUES ("Rua Curitiba", "Jardim Vista Alegre", "Guaratingueta", "SP", "12523-580");
+
+insert into tbl_endereco (logradouro, bairro, cidade, uf, cep) values ("Av Dr. João Batista Rangel", "Centro", "Guaratinguetá", "SP", "12500-100");
+
+insert into tbl_endereco (logradouro, bairro, cidade, uf, cep) values ("Rua do Pedregulho", "Pedregulho", "Guaratinguetá", "SP", "12500-150");
+
+===========================================================================
+Pessoa
+
+SELECT * FROM cadastro.tbl_pessoa;
+
+insert into tbl_pessoa (nome, sobrenome, cpf, data_nascimento, numero_casa, fk_Endereco) values ("Pedro", "Benini", "51919085890", "2005-05-05", "86", "1");
+
+insert into tbl_pessoa (nome, sobrenome, cpf, data_nascimento, numero_casa, fk_Endereco) values ("Zé", "Volpato", "04515455887", "1980-05-06", "100", "2");
+
+insert into tbl_pessoa (nome, sobrenome, cpf, data_nascimento, numero_casa, fk_Endereco) values ("Nelci", "Mariano", "44754898774", "1980-", "100", "2");
+
+update tbl_pessoa set data_nascimento = "1980-08-12" where idPessoa = 4;
+
+delete from tbl_pessoa where idPessoa = 1;
+
+
+select tbl_pessoa.nome, tbl_pessoa.sobrenome, tbl_endereco.cep, tbl_endereco.logradouro, tbl_pessoa.numero_casa, tbl_endereco.bairro, tbl_endereco.cidade from tbl_pessoa inner join tbl_endereco on tbl_endereco.idEndereco = tbl_pessoa.fk_Endereco where tbl_pessoa.nome = "Zé";
+
+select tbl_pessoa.nome, tbl_pessoa.sobrenome, tbl_endereco.cep, tbl_endereco.logradouro, tbl_pessoa.numero_casa, tbl_endereco.bairro, tbl_endereco.cidade from tbl_pessoa inner join tbl_endereco on tbl_endereco.idEndereco = tbl_pessoa.fk_Endereco;
