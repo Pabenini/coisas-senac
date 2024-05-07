@@ -1,0 +1,56 @@
+ONG:
+horarios de funcionamento
+aonde é
+
+adoção:
+qual animal
+genero do animal
+tipo de animal
+caracteristicas do animal
+estado de saude do animal
+data de vacinação de animal
+data de adoção
+idade do animal
+nome do cliente
+telefone
+disposição de adotar o animal
+
+tipos de serviço:
+adoção
+situação dos animais
+encontro de animais perdidos ou abandonados
+medico
+
+encontro de animais perdidos:
+tipo de animal
+situação do animal
+aonde o cliente encontro o animal
+
+informações dos animais:
+tipo de animal
+raça do animal
+genero do animal
+total de animais
+situação dos animais
+caracteristicas do animal
+data de vacinação do animal
+
+informações dos funcionarios:
+nome
+idade
+telefone
+email
+área de cada funcionario
+
+informaçoes do cliente:
+nome do cliente
+idade
+telefone
+email
+se ja adotou algum animal
+se tem animal
+
+contato:
+telefone
+email
+endereço

@@ -1,0 +1,41 @@
+criar uma maquina virtual
+	-ter espaço na maquina
+	-abrir o oracle VM virtualbox gerenciador
+	-clicar em novo
+	-colocar o nome da maquina virtual ex:windows 10
+	-em imagem iso colocar a isso do sistema que voce tem ex: Win10_22H2_BrazilianPortuguese_x64.iso
+	-selecionar a opção pular instalação desassistida
+	- em hardware por a memoria base em: 8192 MB e no processador: 4
+	-disco rigido virtual o tamanho do disco: 100GB
+===========================================================================
+instalação do windows
+	-se seu teclado tem ç colocar portugues(ABNT2)
+	-voce nao tem a chave de ativação
+	-e colocar windows pro
+	-aceitar os termos
+	-vai em personalizar e em avançar
+	-espera instalar
+===========================================================================
+	brazil
+	abnt2
+	configurar para uso pessoal
+	conta offline
+	experiencia limitada
+	seu nome
+	por a senha
+	animal favorito = animal
+	cidade onde nascel = cidade
+	apelido de infancia = apelido
+	localização = sim
+	caneta = nao
+	o resto é sim
+	personalizar esperiencia = ignorar
+	agora não
+===========================================================================
+dispositivos
+inserir imagem de cd dos adicionais para convidados...
+ir nos arquivos
+abrir o unidade de CD (D:) virtualbox guest additions
+e instalar o vboxwindowsadditions-amd64
+
+adicionar adicionais para convidado...

@@ -1,0 +1,35 @@
+salão de beleza:
+
+informacões dos clientes:
+nome
+idade
+telefone
+email
+
+informações dos funcionarios:
+nome
+idade
+email
+telefone
+
+tipos de serviços:
+corte de cabelo
+lavagem de cabelo
+hidratação
+manicure
+
+contatos:
+email
+telefone
+endereço
+
+reservas:
+nome do cliente
+data
+horarios
+preço a ser pago
+
+formas de pagamento:
+dinheiro
+cartões de credito ou debito
+pix

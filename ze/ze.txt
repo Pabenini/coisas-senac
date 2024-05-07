@@ -1,0 +1,3 @@
+Banco de dados: conceito, tipos e volume de dados; principais aspectos da evolução do banco de dados;
+Modelo conceitual e lógico.
+Sistema Gerenciador de Banco de Dados (SGBD): conceito, arquitetura, implantação, instalação, funcionalidades e manutenção

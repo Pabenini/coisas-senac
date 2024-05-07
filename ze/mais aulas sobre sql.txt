@@ -1,0 +1,24 @@
+logamos no ip do sor no mysql workbench e rodamos esse codigo
+
+o ip do sor é:10.55.49.38
+
+comando usado:
+
+use alunos; // usar o banco de dados chamado alunos
+
+insert into endereco (logradouro, bairro, cidade, complemento) values ("Rua Curitiba", "Jardim Vista Alegre", "Guarartingueta", ""); // inserindo informações nesse banco
+
+select * from endereco; // mostra todos os dados armazenados
+
+insert into aluno (nome, email, whatsapp, numero_casa, fk_idendereco) values ("Pedro", "pedro.a.benini8@gmail.com", "988590085", "86", 2 ); // inserindo informações nesse banco
+
+select * from aluno; // mostra todos os dados armazenados
+
+select nome, logradouro, numero_casa from aluno inner join endereco where fk_idendereco = idendereco; // inner join junta dois bancos
+// mostra as informações especificas que pedimos e juntamos com o aluno e o endereco
+
+select nome, logradouro, numero_casa from aluno inner join endereco where fk_idendereco = idendereco and idaluno = 1;
+
+select nome, logradouro, numero_casa from aluno inner join endereco where fk_idendereco = idendereco and nome = "ruan";
+
+update aluno set nome = "Pedro de Araújo Benini" where idaluno = 10;

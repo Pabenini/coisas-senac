@@ -1,0 +1,41 @@
+site de rifa
+
+rifeiro:
+nome
+idade
+telefone
+email
+
+contatos do rifeiro:
+telefone
+email
+
+rifas:
+o produto da rifa
+quantidades de rifas
+preço de cada rifa
+data de rifa
+data do anuncio do ganhador
+
+comprador:
+nome
+idade
+telefone
+email
+quantidades das rifas
+preço total
+
+formas de pagamento:
+dinheiro
+pix
+cartões
+
+sorteio:
+todos os numeros comprados
+sortear 1
+anunciar o ganhador
+
+ganhador:
+nome do ganhador
+receber o premio
+

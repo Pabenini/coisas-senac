@@ -1,0 +1,39 @@
+instalar:
+	chrome,
+	xampp,
+	visual studio code,
+	git-scm,
+	python,
+	node.js (npm...)
+
+ordem de instalação dos softwares
+	chrome,
+	xampp,
+	visual studio code
+reinicia a maquina virtual
+	git (choosing the default editor used by git, para, use visual studio code as git's default editor) e (trocar para main)
+reinicia a maquina
+	python
+reinicia a maquina virtual
+	node.js
+reinicia a maquina virtual
+===========================================================================
+instalação do ubuntu
+	mesma coisa do windows
+	8192 GB DE RAM
+	4 PROCESSADORES
+	100,00 GB 
+===========================================================================
+pt-br
+proximo
+pt-br
+via cabo
+instalar ubuntu
+instalação interativa
+instalação completa
+marcar os dois
+apagar o disco
+nome:Pedro
+senha:123
+tá são paulo aqui?
+instalar
