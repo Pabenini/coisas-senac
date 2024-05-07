@@ -1,0 +1,19 @@
+w3schools python MySQL
+
+abrir a maquina virtual
+	abrir o vsc
+	criar uma pasta na area de trabalho com o nome (python + mysql)
+	abrir a pasta no vsc
+	criar um arquivo chamado programa.py
+	instalar a extensão do python no vsc
+	instalar o pip no vsc
+	mas primeiro tem que modificar o python para poder instalar o pip
+		pip
+		py launcher
+		add python to environment variables
+
+
+python -m pip install mysql-connector-python
+python .\programa.py
+
+agora ir testando as coisas do w3schools
