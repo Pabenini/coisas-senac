@@ -1,0 +1,73 @@
+Boa sexta
+Operações Aritméticas
+soma, subtração, multiplicação, divisão
+ +        -            *           /
+-Desenvolvimento Back-End
+===========================================
+-UC7 Desenvolvimento
+Back End -> regras do negócios
+|->javascript
+|-<visualg python
+-------------------------------------------
+Front End -> Telas Layout
+HTML css next
+-------------------------------------------
+|-<NodeJS -> amb. aplic. JS
+|DJANGO -> framework(Estrutura)
+|	  python(ling. prog.)
+|Lógica -> Raciocínio
+|Algoritmo -> Passo a passo
+|->JS -> nav.
+------------------------------------------
+Portugol(VisualG) -> prog. lógica de prog.
+------------------------------------------
+NodeJS -> Exec.Js fora do Navegador
+json
+----
+ajax
+----
+Algoritmo "nome_algoritmo"
+
+Var
+	X,Y,Z: real
+Inicio
+	escreval("Entre com o 1º valor")
+	leia(X)
+	escreval("Entre com o 2º valor")
+	leia(Y)
+	Z := X * Y
+	Escreval(Z)
+Fimalgoritmo
+|=======================|
+|teste de mesa		|
+|X = 5			|
+|Y = 3			|
+|Z = 5 * 3		|
+|Z = 15			|
+|=======================|
+
+continuação dos exercicios de quarta
+7. Crie um algorítmo que calcule a média aritmética de 4 números. feito
+
+8. Crie um programa que faça qualquer cálculo de multiplicação com 2 números. feito
+
+9. Crie um programa que calcule o valor total do carrinho com os itens abaixo. feito
+Caneta 6 R$ 3,00
+Lápis 10 R$ 2,00
+Borracha 10 R$ 4,00
+Caderno 2 R$ 25,00
+Mochila 1 R$ 99,50
+
+10. Crie um Algoritmo que receba um número inteiro e mostre o seu antecessor e sucessor. feito
+
+11. Crie um Algoritmo que receba um número real e mostre sua parte inteira. cancelada
+
+12. Crie um Algoritmo que receba a quantidade de horas trabalhadas e o valor da hora de um funcionário, e calcule o salário. feito
+
+13. Crie um Algoritmo que calcule o IMC (Índice de Massa Corporal), recebe o peso a altura de uma pessoa e calcule o IMC. feito
+
+14. Crie um Algoritmo que receba a quantidade de litros de combustível e o preço por litro, e calcule o valor a ser pago. feito
+
+15. Crie um Algoritmo que Receba o valor de um produto, a quantidade comprada, e calcule o total a ser pago (incluindo 8% de impostos).
+
+16. Crie um Algoritmo que receba o valor dos catetos de um triângulo retângulo, e calcule a hipotenusa. cancelada

@@ -1,0 +1,12 @@
+Back end
+AJAX - asymcehonous
+       javascrip and
+       xml
+assincrono - não é imediato
+síncrono - simultâneo
+
+- request - requisição
+- response - resposta
+
+- http -
+- https -

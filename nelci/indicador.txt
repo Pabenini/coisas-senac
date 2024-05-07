@@ -1,0 +1,14 @@
+Atividade: Node js				dontpad.com/professornelcimariano -> passo a passo
+-> Criar um novo projeto node.js ->"app_atividade1"
+-> Inicie o projeto com npm init
+-> Vincule o projeto ao VSC
+-> instale o express
+-> Crie a codificação com as rotas:
+/
+nes.send("Rota Inicia")
+========================
+/cursos
+nes.send("Rota cursos")
+========================
+/dado
+nes.json{"id": 1, "Descrição": "Senac"}					

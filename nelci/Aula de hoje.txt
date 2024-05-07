@@ -1,0 +1,50 @@
+visualg - portugol								
+algoritmo "nome_algoritmo"							
+										
+var										
+	// declaração das variáveis						
+	nome: caractere								
+	idade: real								
+	x,y,soma,sub,mult,div,n,data: real					
+										
+inicio
+	escreval("Entre com o nome")
+	leia(nome)
+	
+	escreval("Entre com a idade")
+	leia(idade)
+	
+	escreval("nome", nome)
+	escreval("idade", idade)
+finalgoritmo
+=============================================
+obs: Tipo de dado
+String -> letra, nº, pontuação
+Boolean -> V ou F / T or F
+int/ float/ double
+numero = boolean
+numero = True
+numero = False
+Se -> if
+
+X Y S
+S=X+Y
+-----
+Sal.,porc.,calculo,novosalario
+calculo = sal *
+	= 100 * 20%
+calculo = 100 * 20/100
+calculo = 20
+novosalario = sal + calculo
+novosalario = 100 + 20
+novosalario = 120
+=============================================
+1. crie um algoritmo em que o usuario entre com a idade e o sistema retorna o ano do nascimento. feito
+
+2. Calcule a área e o perímetro do quadrado. feito		|	area = lado * lado	perimetro = lado + lado + lado + lado
+
+3. calcule a área do triângulo. feito
+
+4. calcule a área do circulo. feito
+
+5. entre com o valor da temperatura em celsius e converta p/ kelvin. feito

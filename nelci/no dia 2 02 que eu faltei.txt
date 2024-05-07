@@ -1,0 +1,195 @@
+Estrutura de dados
+Estrutura de controle
+Pseudocódigo
+x = 10
+se x = 10
+  escreva x é 10
+se não
+   escreva x é diferente de 10
+(Pseudocodigo não tem sintaxe,e não pertence somente a uma linguagem de programação)
+-------x-------
+* idantar o código
+• organizar
+----------x-----------
+x = 20
+se x <= 20
+  escreva x é <= 20
+se não
+  escreva x  é > que 20
+------x----------
+VisualG
+ALgoritmo "Se"
+Var
+x: inteiro
+Inicio
+  x :=10
+se x = 10 entao
+  escreva ("x  é 10")
+se nao
+   escreva("x não é 10")
+Fimse
+Fimalgoritmo
+----------x-------------
+VisualG
+Algoritmo "se senao"
+
+Var
+
+  x:inteiro
+
+Inicio
+  x:= 4
+ se x = 1 entao
+  escreva("x é 1")
+senao
+ se x =2 entao
+  escreva("x é 2")
+senao
+ se x =3 entao
+  escreva("x é 3")
+senao
+ se x =4 entao
+  escreva("x é 4")
+senao
+  escreva("x não é 1,2,3 ou 4")
+fimse
+   fimse
+fimse
+  fimse
+Fimalgoritmo
+-------x-------
+Algoritmo "se"
+
+Var
+
+  x:inteiro
+
+Inicio
+ escreva("Digite um número: ")
+ leia(x)
+ se x = 3 entao
+  escreva("x é 3")
+ senao
+  escreva("x não é 3")
+  fimse
+Fimalgoritmo
+----------x------------
+1 - Crie um algoritmo que entre com o valor do salário de um funcionário.Se o salário for até R$2,640 ,Exiba na tela que o funcionário está inseto do imposto de renda.Se o salário foi maior,exiba que o funcionário deve declarar o imposto de renda.
+
+Algoritmo "1_atividade_Se"
+
+Var
+salario:real
+Inicio
+escreva ("Digite o seu salário: ")
+leia(salario)
+ se salario = 2640 entao
+  escreva("Você está inseto de renda")
+senao
+ se salario > 2640 entao
+  escreva("Você deve declarar imposto de renda")
+  //senao
+ //se salario < 2640 entao
+  //escreva("Você é pobre!")
+ fimse
+fimse
+//fimse
+Fimalgoritmo
+------x------
+2- Crie um programa que solicite  a nota de um aluno.Exiba se o aluno foi aprovado ou reprovado. Execute o seguinte procedimento da escola Alpha. A nota é suficiente para aprovação deve ser maior ou igual a 6. Caso contrário o aluno será reprovado.
+
+Algoritmo "2_atividade_Se"
+
+Var
+nota:real
+Inicio
+escreva ("Digite a nota do aluno : ")
+leia(nota)
+ se nota >= 6 entao
+  escreva("Você foi aprovado!")
+senao
+  escreva("Você foi reprovado")
+
+ fimse
+Fimalgoritmo
+------------x------------
+3- peça ao usuario para inserir a temperatura em graus Celsius.utilize a estrutura condicional para classificar se a temperatura está "Fria", ou "Quente"(por exemplo, <= 10ºC é frio,> 10ºC é quente)
+
+Algoritmo "3_atividade_Se"
+
+Var
+c:real
+Inicio                                    //mais que 25º-->quente
+escreva ("Insira os graus celsius :  ")  //20ºgraus --> normal
+leia(c)                                 // abaixo de 20º --> frio
+se c <= 20 entao
+  escreva("Frio")
+senao
+ se c > 20 entao
+  escreva("Quente")
+fimse
+   fimse
+Fimalgoritmo
+=====x=====
+algoritmo "3_atividade_Se_professor"
+
+Var
+temperatura:real
+Inicio                                     //mais que 25º-->quente
+   temperatura :=22
+   se temperatura <= 10 entao
+      escreva("Frio")
+   senao
+     se (temperatura >10) e (temperatura <= 20) entao
+       escreva("Amenoa")
+    senao
+       escreva("Quente")
+  fimse
+     fimse
+    
+Fimalgoritmo
+-------x---------
+4 - Crie um algoritmo que apresente as opções na tela para o usuário
+                      1 - Depósito
+                       2 - Saque
+                        3 - Tranferencias
+                        4 - Saldo
+o usuario devera escolher a opção digitando o número referente a sua escolha e o sistema deverá exibir a mensage com o nome da opção escolhida. Se o usuário não digitar uma das opções exiba a mensagem indicando que ele escolher apenas uma das opções acima.
+
+algoritmo "4_atividade_Se"
+
+Var
+   x:real
+
+Inicio
+    escreva("1- Depósito ")
+     escreva("2- saque ")
+      escreva("3- transferência ")
+       escreva("4- saldo ")
+
+     escreva("Digite um número: ")
+     leia(x)
+
+   se x = 1 entao
+    escreva("Você selecionou depósito!")
+   senao
+
+   se x = 2 entao
+     escreva("Você selecionou saque!")
+   senao
+
+    se x = 3 entao
+      escreva("Você selecionou transferência!")
+   senao
+
+    se x = 4 entao
+       escreva("Você selecionou saldo!")
+
+   senao
+    escreva("Você selecionou nada!")
+
+   fimse
+  fimse
+    fimse
+ fimse
+Fimalgoritmo

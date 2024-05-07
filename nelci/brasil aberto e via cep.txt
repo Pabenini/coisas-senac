@@ -1,0 +1,19 @@
+cep
+|12519220|id = cep ≠ Cep
+
+|	|id = log ≠ Log
+|	|id = Bai ≠ bai
+	 identificadores
+*Case Sensitive (Diferencia Maiúsculo de Minúsculo)
+
+Escrevam tudo "Minúsculo"
+
+Cadastro Cu
+10 campos}
+30 min
+
+Cadast Pro
+10 campos
+1 min
+
+Via Cep

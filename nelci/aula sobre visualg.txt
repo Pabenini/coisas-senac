@@ -1,0 +1,36 @@
+hd - ssd (armazenar)
+
+Java*
+Public int idade
+-------
+private string nome
+-------
+			nome = "Nelci";
+			idade = 35;
+
+PHP				-----------
+$nome = "Nelci";		|framework|
+$idade = 35;			-----------			
+				|
+JavaScript*			-> Laravel
+nome = "Nelci"			-> Codeignite
+idade = 35			-> case PHP
+
+Python* Next TS
+c#      -------
+	React TTS
+	---------
+
+|Django| Mongo DB no SQL|
+|------|----------------|
+\-----------------------/
+
+=================================================
+
+console.log("Olá Mundo")
+
+node .
+
+localhost/phpmyadmin
+mysql
+xampp

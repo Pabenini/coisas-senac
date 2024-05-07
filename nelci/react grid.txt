@@ -1,0 +1,13 @@
+https://react-bootstrap.netlify.app/docs/layout/grid
+<Col xs={12} md={2}>
+
+xs= (< 576px)
+sm= (>= 576px)
+md= (>= 768px)
+lg= (>=992)
+xl= (>= 1200px)
+xll= (>= 1400px)
+ |
+Grid layout responsivo
+=====================================================
+copiar a pasta app_react2 na pasta docentes do nelci mariano (caso precise)

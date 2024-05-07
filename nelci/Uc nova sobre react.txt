@@ -1,0 +1,45 @@
+React é um Framework Javascript desenvolvido pelo facebook
+
+Específique um local no computador para o projeto
+	Crie uma pasata com o nome react em documentos
+
+Abra o Node.js command prompt
+
+1. Criação do Projeto
+	comando -> npx create-react-app npme_projeto
+
+	npx create-react-app app_react
+
+	npx create-react-app
+projeto_react_inicial
+
+Acesse a pasta do projeto criado via node
+	cd projeto_react_inicial
+
+	-> cd app_react
+
+2.Execução do projeto
+	-npm start
+
+2.1 Abra o Visual studio code e vincule o porjeto react
+	
+
+3. Arquivos iniciais do projeto
+
+	o arquivo src/index.js possui um componente <app /> que está no arquivo app.js (é extamente esse componente que é renderizado)
+
+
+4.1 riação do componente Main
+	1. Botão
+
+
+
+-----------------------------------------------------
+Desafio: criar um novo arquivo .js e abrir esse arquivo com página inicial do projeto.
+Ex: Main.js
+
+-----------------------------------------------------
+5. Criação do arquivo AppRoutes.js e chamada do Routes no index.js
+
+6. Instalação da Dependência react-router-dom
+	npm install react-router-dom

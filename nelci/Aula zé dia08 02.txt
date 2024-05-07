@@ -1,0 +1,7 @@
+1. Escreva um algoritmo para ler o nome e a idade de uma pessoa, e exibir quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias. Ex:uma pessoa com 19 anos possui 6935 dias de vida; veja um exemplo de saída: PAULA. VOCÊ JÁ VIVEU 6935 DIAS.
+2. Um motorista deseja colocar no seu tanque x reais de gasolina. Escreva um algoritmo para ler o preço do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu colocar no tanque.
+3. O restaurante a quilo Bem-Bão cobra R$12,00 por cada quilo de refeição. Escreva um algoritmo que leia o peso do prato montado pelo cliente (em quilos) e imprima o valor a pagar. Assuma que a balança já desconte o peso do prato.
+4. Entrar com o dia e o mês de uma data e informar quantos dias se passaram desde o início do ano. Esqueça a questão dos anos bissextos e considere sempre que um mês possui 30 dias.
+5. Ler três notas de um aluno, calcular a média e informar se ele foi aprovado (Média >= 7), reprovado (Média < 7) ou provado com louvor (Média = 10)
+6. Faça um algoritmo que lê uma temperatura em Fahrenheit e calcula a temperatura correspondente em Celsius. Ao final o programa deve exibir as duas temperaturas.-Usar a fórmatura:C = (5*(F-32)/9).
+7. Faça um algoritmo para calcular quantas ferraduras são necessárias para equipar todos os cavalos comprados para um haras.

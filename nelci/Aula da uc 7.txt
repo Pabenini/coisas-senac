@@ -1,0 +1,49 @@
+uc7 - Desenvolvimento Back-End
+
+Front End -> Tela, Layout
+Back End -> Funções relacionadas as regras de negócios
+Algoritmo -> Sequência de passos p/ resolução de um problema
+Lógica -> Coerência do raciocínio
+==================================================================
+Ex: valid. cpf *---------	html		|---------------|
+	       |368927...|			|---------------|
+		---------	@ .com		|   121111...	|
+						|---------------|
+API -> Via cep					|		| -> Type: email
+^ |						|---------------|
+| ->BD -> Ender...				|   .........	| -> Type: passsword
+12519200					|---------------|
+						|		|
+						|		|
+						|---------------|
+==================================================================
+VisualG
+1. Declaração das variáveis
+2. Colocar o tipo de dado
+3. Escreva - Entrar com o dado
+4. Leia (x)
+5. Cálculo - Lógica - soma, sub, mult, divi	$nome
+6. Escreva - Saída do dado			integer nome
+------------------------------------------------------------------
+Análise de Programação
+-> Constância -> Errar
+|	^	   |
+cria	|-----faz de novo
+99 taxi
+6 meses
+uber
+in drive
+==================================================================
+1. Crie um algoritmo que entre com o valor em reais e converta esse valor em dollar. feito
+2. Entre com uma temperatura em celsius e converta em farenheits. feito
+==================================================================
+class conversor{
+R, D, C : real
+
+function calcular(R){
+C=R * 4,92
+}
+op=meu conversor();
+op.calcular(R);
+|
+->9,84

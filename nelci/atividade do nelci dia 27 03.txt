@@ -1,0 +1,11 @@
+atividade
+1. Criar um novo Projeto Node
+2. Criar as rotas do tipo get
+	- rota inicial => / => res.send("rota inicial")
+	- / contato -> res.send("rota contato")
+	- /aluno -> res.json({
+				"idAluno" : 1,
+				"nomeAluno": "Alex"
+			    })
+	- /professor -> res.json...
+3. Execute cada rota no insomnia

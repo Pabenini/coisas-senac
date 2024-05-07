@@ -1,0 +1,40 @@
+1. Entre com o valor em Dollar e o programa deve converter p/ R$. feito				* Sor, está igualzinho o seu, mas não funciona
+==================================================================				|	|
+Teste de mesa											|	->frase do mal
+-------------											|	estrutura de dados O.O.
+dollar = 1  R$ 4,98										|================================================
+												->autoresponsabilidade
+dollar = 10 R$ 49,8
+		X reais
+x = dollar * 4,98
+Reais = dollar * 4,98
+|____________________|
+	 \/
+Escreva (Dollar, "Dollar(s) convertido em reais => r$", reais)
+
+2. Entre com 1 numero e exiba o dobro deste número. feito
+
+3. Cálcule um valor com 25 % de desconto. feito
+  O
+ /|\
+  |
+ / \
+===================================================================
+teste de mesa							valor * 0,75 => 75/100
+-------------							0,75
+valor = 100     vd = 75						0.2 -> 20/100
+	10  ->	  7,5						0.5 -> 50/100
+	     como?						0.3 -> 30/100
+25% de 100 = 75							
+25/100 = 0,25							
+-------------							
+100% -> 100 / 100  200 / 100  30 / 100			
+==================================================================	
+4. Entre com o valor e a quantidade de desconto. feito
+
+5. Entre com um número e calcule seu quadrado. feito
+3² = 9
+4² = 16
+20² = 400
+
+6. Calcule a área do retangulo. feito

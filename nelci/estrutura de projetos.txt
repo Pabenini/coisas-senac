@@ -1,0 +1,24 @@
+Estrutura de projetos
+	pasta do projeto
+	/---------------------------------------\
+	|admin					|
+	|/----------------------\		|
+	||home.html		|		|
+	||			|área restrita	|
+	||			|		|
+	|\----------------------/		|
+	|index.html(login)			|
+	|*index.js				|
+	|*index.css				|
+	|					|
+	\---------------------------------------/
+
+www.proj.com/admin/home.html -> página inicial do admin
+
+www.proj.com/index.html -> pagina de login
+
+src=index.js
+src=index.css
+
+home
+src=

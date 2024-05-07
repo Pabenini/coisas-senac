@@ -1,0 +1,115 @@
+NODE - AMBIENTE DE EXECUÇÃO JAVASCRIPT
+NPM - NODE PACKAGE MANAGEMENT
+
+Express -> é um frame work para node.js que ira nos auxiliar 
+usado para construir aplicativos web e APis (interface de programação de aplicações) em node.js de forma mais fácil e eficiente com rotas, middleware e interações HTTP em geral.
+
+Requisições HTTP -> post (envia) - Get (retorna) - put (update) - Delete (excluir)
+
+Rota -> é o caminho (url) do projeto
+
+------------------------------------------
+
+1. Criar uma pasta node em documentos
+
+2. Abrir o node js Command prompt
+
+3. Acessar a pasta node pelo Node Js Command Prompt
+	cd C:\Users\nelci.mpjunior\Documents\nodinho
+
+4. Versão do Node
+	node -v
+
+5. Versão do npm
+	npm -v
+
+6. Dentro da pasta node crie a pasta app_1 (mkdir app_1)
+
+7.Acesse a pasta app_1 via node
+	cd app_1
+
+8.Criação de projeto com o node
+	npm init 
+package name: (app_1)
+version
+description: Primeiro Projeto Node
+entry point: (index.js)
+test command
+git repository
+keywords
+author: (seu nome)
+license:
+
+9. Atualizar a versão do node (Caso necessário)
+	npm install -g npm@10.5.0
+
+10. Abrir o Visual Studio Code e vincular o projeto app_1
+	file -> add folder to workspace - Procura a pasta do projeto e clicar em add
+
+11. No projeto criado, visualize o arquivo package.json
+
+12. Criar o arquivo index.js
+
+13. Instalação do express
+	npm install express --save
+
+14. Criação da codificação inicial do projeto no arquivo index.js
+
+//importe o express para o projeto
+const express = require('express')
+const app = express()
+
+//Abreindo uma comunicação do server, na porta 4000
+app.listen(4000, (error) => {
+    if (error) {
+        console.log('Servidor NÃO INICIADO')
+    } else {
+        console.log('Servidor INICIADO')
+    }
+})
+
+15. Startar a aplicação via node js command prompt
+	node index.js
+
+16. Crição das rotas e chamada no navegador
+
+const express = require('express')
+const app = express()
+
+//Rota 1
+app.get('/', (req, res) => {
+    res.send('Raiz do Projeto')
+})
+
+// Rota 2
+app.get('/contato', (req, res) => {
+    res.send('Página Contato')
+})
+
+app.listen(4000, (error) => {
+    if (error) {
+        console.log('Servidor NÃO INICIADO' + error.message)
+    } else {
+        console.log('Servidor INICIADO')
+    }
+})
+
+
+Pare a aplicação no node
+	ctrl + c
+e
+Execute novamente via node
+	node index.js
+
+Abra o navegador e digite a rota
+	http://localhost:4000/
+
+Abra o navegador e digite a rota
+	http://localhost:4000/contato
+
+17. Instalação do Nodemon
+	o nodemon permitira atualização em tempo real, sem a necessidade de parar o serviço e inicia-lo novamente
+	npm install -g nodemon
+
+PARA STARTAR O PROJETO COM NODEMON DEVERA USAR O COMANDO:
+	nodemon start

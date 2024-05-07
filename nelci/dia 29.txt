@@ -1,0 +1,56 @@
+UC7 - Back end	2 % 2 = 0
+Operadores Aritméticos
+ + - * /
+% (Módelo ou resto da divisão) -> 4 % 2 = 0
+** Potenciação			4|2
+				 ----
+				0 2
+============================================
+______________________ <table>
+|aline   |----------1| 	<th <sc>1%2=0 </sc>>
+|jean    |          2|   <td>aline</td>
+|gustavo |----------1|   <td>1</td>
+|anderson|          1|  </th>
+|lucas   |----------3| </table>
+|josé    |          1| 
+|        |----------0| 
+---------------------- 
+para - for
+mysql -> sgbg
+\___/
+ sql
+ select * from alunos where serie - '1º ano'
+-------------
+|          v| select ou combobox
+-------------
+36892891942 -> inteiro
+368.927.919-42 -> caracter
+(12)99881-9191 -> mask
+============================================
+Operadores de comparação ou relacionais
+== (igual, comparação)
+!= (diferente)
+< (maior)
+> (menor)
+<= (maior igual)
+>= (menor igual)
+---------------------------------------------
+operadores lógicos
+e, ou
+*and, or, not
+---------------------------------------------
+operadores de atribuição
+=	->	b=3		b+=5
++=		b = b + 5	b=8
+-=		8 = 3 + 5
+*=
+--------------------------------------------
+operador termário
+?:
+============================================
+->select *from usuario where login = "nelci@senac.com"
+login existe
+------------
+loginsistema == login
+|
+--> entrar

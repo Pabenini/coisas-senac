@@ -1,0 +1,230 @@
+React é um Framework Javascript desenvolvido pelo Facebook
+
+Específique um local no computador para o projeto
+	
+	- Crie uma pasta com o nome react em documentos
+
+Abra o Node.js command promt
+
+Instalação do npm
+	-> npm install -g npm
+
+
+1. Criação do Projeto
+	-> npx create-react-app nome_projeto
+
+	npx create-react-app app_react
+
+Acesse a pasta do projeto criado via node
+	-> cd app_react
+
+2. Execução do projeto
+	-npm start 
+
+2.1 Abra o Visual Studio Code e Vincule o Projeto React
+
+3. Arquivos Iniciais do Projeto 
+
+	O arquivo src/index.js possui um componente <App /> que está no arquivo app.js (É exatamente esse componente que é renderizado como pagina inicial do projeto).
+	Esse componente <App /> é o arquivo src/app.js com a function App 
+
+	
+	A function App() possui a codificação da página inicial do projeto
+
+	Altere a codificação dentro do "return (" para exibir olá mundo
+
+
+	***********************
+
+	import logo from './logo.svg';
+	import './App.css';
+
+	function App() {
+  	return (
+    		<div>
+      		<h2> Olá Mundo </h2>
+    		</div>
+  		);
+	}
+
+	export default App;
+
+
+-----------------
+
+4.1 Criação do Componente Main
+	1. Botão Direito em src -> new File 'Main.js'
+
+function Main() {
+    return (
+      <p> Olá Show</p>
+    );
+  }
+  
+  export default Main;
+
+......................
+
+Modificação no Arquivo Main.js e com estilização no CSS
+
+export default function Main() {
+  // Variável
+  let nome = "Professor Nelci Mariano";
+  // Objeto
+  let usuario = {
+    login: 'nelcijunior',
+    departamento: 'Tecnologia da Informação'
+  }
+  return (
+    <div>
+      <p className="title"> Olá, {nome} </p>
+      <p className="text"> Seu login: é {usuario.login} e seu Dpt é {usuario.departamento} </p>
+    </div>
+  );
+}
+
+
+
+--------------------------
+4. Criação de uma function no arquivo app.js - Retorno da variável e de um objeto
+
+	***********************
+
+function App() {
+
+  const nome = "Nelci Mariano"
+  const usuario = {
+    idade: 35,
+    profissao: "Professor"
+  }
+  function formatarNome(nome){
+    return nome
+  }
+
+  function formatarDadosUsuario(usuario){
+    return ", " + usuario.idade + " anos de Idade e é " + usuario.profissao
+  }
+
+
+  return (
+    <div>
+      <h2> Olá, {formatarNome(nome)} {formatarDadosUsuario(usuario)}</h2>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+----------------------------------------
+
+5. Criação do Arquivo AppRoutes.js e chamada deste arquivo no index.js
+
+function AppRoutes() {
+    return (
+        <h1> App Routes </h1>
+    )
+}
+
+export default AppRoutes
+
+
+Alteração no arquivo index.js pra chamar o AppRoutes
+
+(...)
+
+import RoutesComponent from './AppRoutes';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <RoutesComponent />
+  </React.StrictMode>
+);
+
+-------------------------------------
+
+6. Instalação da Dependência react-router-dom
+	npm install react-router-dom
+
+Configuração do arquivo AppRoutes.js
+
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+function AppRoutes() {
+    return (
+        <BrowserRouter>    
+        <Menu />       
+            <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/Filmes" element={<Filmes />}></Route>
+            </Routes>            
+        </BrowserRouter >
+    )
+}
+export default AppRoutes
+
+------------------------------------
+
+7. Criação da pasta src/pages com as pastas Home e Filmes
+
+	-> src/pages/Home/Home.js / Crie também o index.css
+	
+import './index.css';
+
+export default function Filmes(){
+    return (
+        <div>
+            <h1>Página de Filmes do Projeto</h1>
+        </div>
+    )
+}
+	
+
+
+	-> src/pages/Filmes/Filmes.js / Crie também o index.css
+
+
+import './index.css';
+
+export default function Home(){
+    return(
+        <div className="title">
+            <h1> Página Home do Projeto</h1>
+        </div>
+    )
+}
+
+----------------------------------------
+
+8. Criação do src/components/Menu/Menu.js
+
+import { Link } from 'react-router-dom';
+
+export default function Menu() {
+    return (
+        <nav>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/filmes">Filmes</Link>
+                </li>
+            </ul>
+        </nav>
+    )
+}
+
+
+
+
+
+
+
+
+
+
+

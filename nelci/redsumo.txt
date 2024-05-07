@@ -1,0 +1,63 @@
+Visual G => lógica - Português		|js
+Pascal	 -----|				|react.js
+-> Variável				|next.js
+	x -> inteiro; real; caracter	|vue.js
+	0, 1, 2, -1, -10, 1.5, 3.78, 3/4|nest
+	x:inteiro			|react native.js
+x = 10					|
+inteiro					|
+real					|
+=========================================
+int
+inteiro
+string
+float
+double
+----------
+javascript
+----------
+typescript
+----------
+=========================================
+9*9 = 81
+√81 = 9
+√9 = 3
+√25 = 5
+RaizQ (25) => 5
+|função |-perimetro
+=========================================
+Exp (3, 2) => 3² = 9
+Exp (4, 2) => 4² = 16
+Exp ((RaizQ(9)), 2)
+Exp (3, 2) => 9
+|-função
+escreval ("texto")
+função	    perimetro
+leia  (X)
+função perimetro
+========================================
+========================================
+se -> if
+se nao -> if else
+pseudocódigo
+x = 10
+
+se x = 10
+	escreva -> x é 10
+se nao
+	escreva -> x é diferente de 10
+---------------------------------------
+Algoritmo "se" -> condição
+
+var
+	x: inteiro
+inicio
+	x := 10
+	se x = 10 entao
+		escreval("x é 10")
+	se nao
+		escreval("x não é 10")
+fimse
+fimalgoritmo
+======================================
+Crie um programa que entre com 1 número e o sistema verifique se o número é 15

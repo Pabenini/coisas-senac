@@ -1,0 +1,73 @@
+1. Crie um algoritmo em que o usuário entre com a idade e o sistema retorna o ano do nascimento
+
+2. Calcule a área e o perímetro do quadrado
+
+3. Calcule a área do triângulo
+
+4. Calcule a área do circulo
+
+5. Entre com a temperatura em Celsius e converta para Kelvin
+
+6. Crie um algorítmo que a faça a conversão de Celsius para Farenheit
+
+7. Crie um algorítmo que calcule a média aritmética de 4 números
+
+8. Crie um programa que faça qualquer cálculo de multiplicação com 2 números
+
+9. Crie um algorítmo que calcule o valor total do carrinho com os itens abaixo
+Caneta 6 R$ 3, 00
+Lápis 10 R$ 2, 00
+Borracha 10 R$ 4, 00
+Caderno 2 R$ 25, 00
+Mochila 1 R$ 99, 50
+
+10. Crie um Algoritmo que receba um número inteiro e mostre o seu antecessor e sucessor.
+
+11. Crie um Algoritmo que Receba a quantidade de horas trabalhadas e o valor da hora de um funcionário, e calcule o salário.
+
+12. Crie um Algoritmo que calcule o IMC (Índice de Massa Corporal), receba o peso e a altura de uma pessoa e calcule o IMC.
+
+13. Crie um Algoritmo que Receba a quantidade de litros de combustível e o preço por litro, e calcule o valor a ser pago.
+
+14. Crie um Algoritmo que Receba o valor dos catetos de um triângulo retângulo, e calcule a Hipotenusa
+
+15. Crie um Algoritmo que Receba o valor de um produto, a quantidade comprada, e calcule o total a ser pago (incluindo 8% de impostos).
+
+
+--------------------------------------------------------------------
+FUNÇÃO SE
+
+1. Crie um algorítmo que entre com o valor do salário de um funcionário. Se o salário for até R$ 2.640, Exiba na tela que o funcionário está isento do Imposto de Renda. Se o salário foi maior, Exiba que o funcionário deve declarar o Imposto de Renda
+
+2. Crie um programa que solicite a nota de um aluno. Exiba se o aluno foi Aprovado ou Reprovado. Execute o seguinte procedimento da escola Alpha. A nota é suficiente para aprovação deve ser maior ou igual a 6. Caso contrário o aluno será Reprovado.  
+
+3. Peça ao usuário para inserir a temperatura em graus Celsius.
+Utilize a estrutura condicional para classificar se a temperatura está "Fria", ou "Quente" (por exemplo, <= 10°C é frio, > 10°C é quente).
+
+4. Crie um Algorítmo que Apresente as opções na tela para o Usuário 
+	1 - Depósito
+	2 - Saque
+	3 - Tranferência
+	4 - Saldo
+
+O usuário deverá escolher a opção digitando o número referente a sua escolha e o sistema deverá exibir a mensagem com o nome da opção escolhida. Se o usuário não digitar uma das opções exiba a mensagem indicado que ele escolher apenas uma das opções acima.
+
+5. Crie um algoritmo que, ao entrar com um número o programa verifique se é positivo, negativo ou zero, e imprima a de positivo, negativo ou zero.
+
+6. Crie um algoritmo que solicite a idade do usuário e informe se ele é criança (0-12 anos), adolescente (13-17 anos), adulto (18-59 anos) ou idoso (60 anos ou mais).
+
+7. Crie um algoritmo que peça dois números ao usuário e imprima o maior deles.
+
+8. Crie um algorítmo que efetue os cálculos pertinentes aos juros de uma máquina de cartão de crédito de acordo com a quantidade de parcelas:
+1 parcela - 2%
+2 parcelas - 4%
+3 parcelas - 6%
+4 parcelas - 8%
+5 parcelas - 10%
+
+Entre com o valor do produto, insira a quantidade de parcelas e o sistema deve retonar quanto de juros será cobrado, descontar do valor que você irá receber e exibir na tela o valor já descontado o juros
+
+
+
+
+

@@ -1,0 +1,41 @@
+UC7 - Desenvolvimento Back End
+-------------------------------------------------
+Back End -> Programação responsavel pela
+	    lógica, regras do negócio, procas-
+	    samentodos dados
+Front End -> programação da interface
+=================================================
+indicador1: (Atividades VisualG)
+"Configura o ambiente de desenvolvimento conforme as funcionalidades características do projeto"
+--------------------------------------------------------------------
+FUNÇÃO SE
+
+1. Crie um algorítmo que entre com o valor do salário de um funcionário. Se o salário for até R$ 2.640, Exiba na tela que o funcionário está isento do Imposto de Renda. Se o salário foi maior, Exiba que o funcionário deve declarar o Imposto de Renda
+
+2. Crie um programa que solicite a nota de um aluno. Exiba se o aluno foi Aprovado ou Reprovado. Execute o seguinte procedimento da escola Alpha. A nota é suficiente para aprovação deve ser maior ou igual a 6. Caso contrário o aluno será Reprovado.  
+
+3. Peça ao usuário para inserir a temperatura em graus Celsius.
+Utilize a estrutura condicional para classificar se a temperatura está "Fria", ou "Quente" (por exemplo, <= 10°C é frio, > 10°C é quente).
+
+4. Crie um Algorítmo que Apresente as opções na tela para o Usuário 
+	1 - Depósito
+	2 - Saque
+	3 - Tranferência
+	4 - Saldo
+
+O usuário deverá escolher a opção digitando o número referente a sua escolha e o sistema deverá exibir a mensagem com o nome da opção escolhida. Se o usuário não digitar uma das opções exiba a mensagem indicado que ele escolher apenas uma das opções acima.
+
+5. Crie um algoritmo que, ao entrar com um número o programa verifique se é positivo, negativo ou zero, e imprima a de positivo, negativo ou zero.
+
+6. Crie um algoritmo que solicite a idade do usuário e informe se ele é criança (0-12 anos), adolescente (13-17 anos), adulto (18-59 anos) ou idoso (60 anos ou mais).
+
+7. Crie um algoritmo que peça dois números ao usuário e imprima o maior deles.
+
+8. Crie um algorítmo que efetue os cálculos pertinentes aos juros de uma máquina de cartão de crédito de acordo com a quantidade de parcelas:
+1 parcela - 2%
+2 parcelas - 4%
+3 parcelas - 6%
+4 parcelas - 8%
+5 parcelas - 10%
+
+Entre com o valor do produto, insira a quantidade de parcelas e o sistema deve retonar quanto de juros será cobrado, descontar do valor que você irá receber e exibir na tela o valor já descontado o juros
