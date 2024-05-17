@@ -1,0 +1,97 @@
+Este Projeto vincula o Back-end com o node (app_node - Projeto Node.js) com o front-end (app_react - Projeto React)
+
+Back-end (Node) e Front-end (React)
+
+--------------------------
+Back-end -> Criação de Projeto com Node.js
+-> Node.js Command Prompt
+
+
+
+
+
+
+--------------------------
+Front-end -> Criação de Projeto com o React.js
+
+-> Node.js Command Prompt
+
+1. Criação do Projeto
+	Comando -> npx create-react-app nome_projeto
+
+	Ex: npx create-react-app app_react
+
+Acesse a pasta do projeto criado via node
+	Comando -> cd app_react
+
+2. Execução do projeto
+	Comando -> -npm start 
+
+2.1 Abra o Visual Studio Code e Vincule o Projeto React
+
+3. Arquivos Iniciais do Projeto 
+
+	O arquivo src/index.js possui um componente <App /> que está no arquivo app.js 
+	(É exatamente esse componente que é renderizado como pagina inicial do projeto).
+	Esse componente <App /> é o arquivo src/app.js com a function App 
+
+	A function App() possui a codificação da página inicial do projeto
+	
+	Exemplo app.js abaixo com o conteúdo alterado para "Olá Mundo"
+
+	***********************
+
+	import logo from './logo.svg';
+	import './App.css';
+
+	function App() {
+  	return (
+    		<div>
+      		<h2> Olá Mundo </h2>
+    		</div>
+  		);
+	}
+
+	export default App;
+
+
+---------------
+
+Criação do AppRoutes.js e importe no AppRoutes.js no index.js
+
+Criação de pages/Home/index.js
+
+	export default function Home(){
+    	return(
+        	<p> Home </p>
+    	)
+	}
+
+
+--------------------
+
+Instalação da Dependência -> react-router-dom
+
+
+	-> npm install react-router-dom
+
+--------------------
+
+Inserção das Rotas no AppRoutes.js
+
+
+import Home from './pages/Home'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+export default function AppRoutes() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />}> </Route>
+            </Routes>
+        </BrowserRouter>
+    )
+}
+
+--------------------
+
