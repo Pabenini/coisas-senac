@@ -1,0 +1,1735 @@
+Welcome to Node.js v21.5.0.
+Type ".help" for more information.
+> NPM - NODE PACKAGE MANAGEMENT
+           ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'PACKAGE'
+> > Express -> É um framework para Node.js que irá nos auxiliar nas requisições do back-end
+         ^
+
+Uncaught SyntaxError: Unexpected token '>'
+> undefined
+> Usado para construir aplicativos web e APIs (Interface de Programação de Aplicações) em Node.js de forma mais fácil e eficiente com rotas, middleware e interações HTTP em geral.
+      ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'para'
+> > REQUISIÇÕES HTTP -> POST (Envia) - GET (Retorna) - PUT(Update) - DELETE (Exclui) 
+            ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'HTTP'
+> > ROTA -> É o caminho (url) do projeto
+      ^
+
+Uncaught SyntaxError: Unexpected token '>'
+> > ... ... 1. Criar uma pasta node em documentos
+^^
+
+Uncaught SyntaxError: Invalid left-hand side expression in prefix operation
+> > 2. Abrir o Node js Command Prompt
+   ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Abrir'
+> > 3. Acessar a pasta node pelo Node Js Command Prompt
+   ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Acessar'
+> cd C:\Users\nelci.mpjunior\Documents\node
+   ^
+
+Uncaught SyntaxError: Unexpected identifier 'C'
+> > 4. Versão do Node
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Versão'
+> Uncaught ReferenceError: node is not defined
+> > 5. Versão do npm
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Versão'
+> Uncaught ReferenceError: npm is not defined
+> 10.2
+> > 6. Dentro da pasta node crie a pasta app_1 (Projeto app_1)
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Dentro'
+> > 7. Acesse o a pasta app_1 via node js command prompt
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Acesse'
+> cd app_1
+   ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'app_1'
+> > 8. Criação de Projeto com o Node
+   ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criação'
+> npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> Irá fazer várias perguntas, dê enter
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'fazer'
+> > package name: (app_1)
+        ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'name'
+> Uncaught ReferenceError: version is not defined
+> description: Primeiro Projeto Node
+                      ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Projeto'
+> entry point: index.js
+      ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'point'
+> test command
+     ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'command'
+> git repository
+    ^^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'repository'
+> Uncaught ReferenceError: keywords is not defined
+> author: Nelci Mariano
+              ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Mariano'
+> ... ... 9. Atualizar a versão do node (Caso necessário)
+   ^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Atualizar'
+> npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> > 10. Abrir o Visual Studio Code e vincular o projeto app_1
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Abrir'
+> File -> add folder to workspace - Procurar a pasta do projeto e clicar em add
+      ^
+
+Uncaught SyntaxError: Unexpected token '>'
+> > 11. No projeto criado, visualize o arquivo package.json
+    ^^
+
+Uncaught SyntaxError: Unexpected identifier 'No'
+> Esse arquivo exibe informações do projeto
+     ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'arquivo'
+> > 12. Criar o arquivo index.js
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criar'
+> Botão na pasta do projeto -> new file -> nomear o arquivo para index.js
+      ^^
+
+Uncaught SyntaxError: Unexpected identifier 'na'
+> > 13. Instalação do Express
+    ^^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Instalação'
+> npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> > 14. Criação da *codificação inicial* do projeto no arquivo index.js
+    ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criação'
+> > undefined
+> undefined
+> undefined
+> > undefined
+> ... ... ... ... ... ... <ref *1> Server {
+  maxHeaderSize: undefined,
+  insecureHTTPParser: undefined,
+  requestTimeout: 300000,
+  headersTimeout: 60000,
+  keepAliveTimeout: 5000,
+  connectionsCheckingInterval: 30000,
+  requireHostHeader: true,
+  joinDuplicateHeaders: undefined,
+  rejectNonStandardBodyWrites: false,
+  _events: [Object: null prototype] {
+    request: [Function: app] {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      setMaxListeners: [Function: setMaxListeners],
+      getMaxListeners: [Function: getMaxListeners],
+      emit: [Function: emit],
+      addListener: [Function: addListener],
+      on: [Function: addListener],
+      prependListener: [Function: prependListener],
+      once: [Function: once],
+      prependOnceListener: [Function: prependOnceListener],
+      removeListener: [Function: removeListener],
+      off: [Function: removeListener],
+      removeAllListeners: [Function: removeAllListeners],
+      listeners: [Function: listeners],
+      rawListeners: [Function: rawListeners],
+      listenerCount: [Function: listenerCount],
+      eventNames: [Function: eventNames],
+      init: [Function: init],
+      defaultConfiguration: [Function: defaultConfiguration],
+      lazyrouter: [Function: lazyrouter],
+      handle: [Function: handle],
+      use: [Function: use],
+      route: [Function: route],
+      engine: [Function: engine],
+      param: [Function: param],
+      set: [Function: set],
+      path: [Function: path],
+      enabled: [Function: enabled],
+      disabled: [Function: disabled],
+      enable: [Function: enable],
+      disable: [Function: disable],
+      acl: [Function (anonymous)],
+      bind: [Function (anonymous)],
+      checkout: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      copy: [Function (anonymous)],
+      delete: [Function (anonymous)],
+      get: [Function (anonymous)],
+      head: [Function (anonymous)],
+      link: [Function (anonymous)],
+      lock: [Function (anonymous)],
+      'm-search': [Function (anonymous)],
+      merge: [Function (anonymous)],
+      mkactivity: [Function (anonymous)],
+      mkcalendar: [Function (anonymous)],
+      mkcol: [Function (anonymous)],
+      move: [Function (anonymous)],
+      notify: [Function (anonymous)],
+      options: [Function (anonymous)],
+      patch: [Function (anonymous)],
+      post: [Function (anonymous)],
+      propfind: [Function (anonymous)],
+      proppatch: [Function (anonymous)],
+      purge: [Function (anonymous)],
+      put: [Function (anonymous)],
+      rebind: [Function (anonymous)],
+      report: [Function (anonymous)],
+      search: [Function (anonymous)],
+      source: [Function (anonymous)],
+      subscribe: [Function (anonymous)],
+      trace: [Function (anonymous)],
+      unbind: [Function (anonymous)],
+      unlink: [Function (anonymous)],
+      unlock: [Function (anonymous)],
+      unsubscribe: [Function (anonymous)],
+      all: [Function: all],
+      del: [Function (anonymous)],
+      render: [Function: render],
+      listen: [Function: listen],
+      request: [IncomingMessage],
+      response: [ServerResponse],
+      cache: {},
+      engines: {},
+      settings: [Object],
+      locals: [Object: null prototype],
+      mountpath: '/'
+    },
+    connection: [Function: connectionListener],
+    listening: [ [Function: setupConnectionsTracking], [Function] ]
+  },
+  _eventsCount: 3,
+  _maxListeners: undefined,
+  _connections: 0,
+  _handle: TCP {
+    reading: false,
+    onconnection: [Function: onconnection],
+    [Symbol(owner_symbol)]: [Circular *1]
+  },
+  _usingWorkers: false,
+  _workers: [],
+  _unref: false,
+  allowHalfOpen: true,
+  pauseOnConnect: false,
+  noDelay: true,
+  keepAlive: false,
+  keepAliveInitialDelay: 0,
+  highWaterMark: 16384,
+  httpAllowHalfOpen: false,
+  timeout: 0,
+  maxHeadersCount: null,
+  maxRequestsPerSocket: 0,
+  _connectionKey: '6::::4000',
+  [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+  [Symbol(ServerResponse)]: [Function: ServerResponse],
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false,
+  [Symbol(async_id_symbol)]: 97,
+  [Symbol(kUniqueHeaders)]: null
+}
+> Servidor INICIADO
+> 15. Startar a aplicação via node js command prompt
+    ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Startar'
+> node index.js
+     ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'index'
+> > 16. Criação das rotas e chamada no navegador
+    ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criação'
+> > Uncaught SyntaxError: Identifier 'express' has already been declared
+> Uncaught SyntaxError: Identifier 'app' has already been declared
+> > undefined
+> ... ... <ref *1> [Function: app] {
+  _events: [Object: null prototype] { mount: [Function: onmount] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  off: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  rawListeners: [Function: rawListeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function (anonymous)],
+  bind: [Function (anonymous)],
+  checkout: [Function (anonymous)],
+  connect: [Function (anonymous)],
+  copy: [Function (anonymous)],
+  delete: [Function (anonymous)],
+  get: [Function (anonymous)],
+  head: [Function (anonymous)],
+  link: [Function (anonymous)],
+  lock: [Function (anonymous)],
+  'm-search': [Function (anonymous)],
+  merge: [Function (anonymous)],
+  mkactivity: [Function (anonymous)],
+  mkcalendar: [Function (anonymous)],
+  mkcol: [Function (anonymous)],
+  move: [Function (anonymous)],
+  notify: [Function (anonymous)],
+  options: [Function (anonymous)],
+  patch: [Function (anonymous)],
+  post: [Function (anonymous)],
+  propfind: [Function (anonymous)],
+  proppatch: [Function (anonymous)],
+  purge: [Function (anonymous)],
+  put: [Function (anonymous)],
+  rebind: [Function (anonymous)],
+  report: [Function (anonymous)],
+  search: [Function (anonymous)],
+  source: [Function (anonymous)],
+  subscribe: [Function (anonymous)],
+  trace: [Function (anonymous)],
+  unbind: [Function (anonymous)],
+  unlink: [Function (anonymous)],
+  unlock: [Function (anonymous)],
+  unsubscribe: [Function (anonymous)],
+  all: [Function: all],
+  del: [Function (anonymous)],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular *1] },
+  response: ServerResponse { app: [Circular *1] },
+  cache: {},
+  engines: {},
+  settings: {
+    'x-powered-by': true,
+    etag: 'weak',
+    'etag fn': [Function: generateETag],
+    env: 'development',
+    'query parser': 'extended',
+    'query parser fn': [Function: parseExtendedQueryString],
+    'subdomain offset': 2,
+    'trust proxy': false,
+    'trust proxy fn': [Function: trustNone],
+    view: [Function: View],
+    views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+    'jsonp callback name': 'callback'
+  },
+  locals: [Object: null prototype] {
+    settings: {
+      'x-powered-by': true,
+      etag: 'weak',
+      'etag fn': [Function: generateETag],
+      env: 'development',
+      'query parser': 'extended',
+      'query parser fn': [Function: parseExtendedQueryString],
+      'subdomain offset': 2,
+      'trust proxy': false,
+      'trust proxy fn': [Function: trustNone],
+      view: [Function: View],
+      views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+      'jsonp callback name': 'callback'
+    }
+  },
+  mountpath: '/',
+  _router: [Function: router] {
+    params: {},
+    _params: [],
+    caseSensitive: false,
+    mergeParams: undefined,
+    strict: false,
+    stack: [ [Layer], [Layer], [Layer] ]
+  }
+}
+> > undefined
+> ... ... <ref *1> [Function: app] {
+  _events: [Object: null prototype] { mount: [Function: onmount] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  off: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  rawListeners: [Function: rawListeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function (anonymous)],
+  bind: [Function (anonymous)],
+  checkout: [Function (anonymous)],
+  connect: [Function (anonymous)],
+  copy: [Function (anonymous)],
+  delete: [Function (anonymous)],
+  get: [Function (anonymous)],
+  head: [Function (anonymous)],
+  link: [Function (anonymous)],
+  lock: [Function (anonymous)],
+  'm-search': [Function (anonymous)],
+  merge: [Function (anonymous)],
+  mkactivity: [Function (anonymous)],
+  mkcalendar: [Function (anonymous)],
+  mkcol: [Function (anonymous)],
+  move: [Function (anonymous)],
+  notify: [Function (anonymous)],
+  options: [Function (anonymous)],
+  patch: [Function (anonymous)],
+  post: [Function (anonymous)],
+  propfind: [Function (anonymous)],
+  proppatch: [Function (anonymous)],
+  purge: [Function (anonymous)],
+  put: [Function (anonymous)],
+  rebind: [Function (anonymous)],
+  report: [Function (anonymous)],
+  search: [Function (anonymous)],
+  source: [Function (anonymous)],
+  subscribe: [Function (anonymous)],
+  trace: [Function (anonymous)],
+  unbind: [Function (anonymous)],
+  unlink: [Function (anonymous)],
+  unlock: [Function (anonymous)],
+  unsubscribe: [Function (anonymous)],
+  all: [Function: all],
+  del: [Function (anonymous)],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular *1] },
+  response: ServerResponse { app: [Circular *1] },
+  cache: {},
+  engines: {},
+  settings: {
+    'x-powered-by': true,
+    etag: 'weak',
+    'etag fn': [Function: generateETag],
+    env: 'development',
+    'query parser': 'extended',
+    'query parser fn': [Function: parseExtendedQueryString],
+    'subdomain offset': 2,
+    'trust proxy': false,
+    'trust proxy fn': [Function: trustNone],
+    view: [Function: View],
+    views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+    'jsonp callback name': 'callback'
+  },
+  locals: [Object: null prototype] {
+    settings: {
+      'x-powered-by': true,
+      etag: 'weak',
+      'etag fn': [Function: generateETag],
+      env: 'development',
+      'query parser': 'extended',
+      'query parser fn': [Function: parseExtendedQueryString],
+      'subdomain offset': 2,
+      'trust proxy': false,
+      'trust proxy fn': [Function: trustNone],
+      view: [Function: View],
+      views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+      'jsonp callback name': 'callback'
+    }
+  },
+  mountpath: '/',
+  _router: [Function: router] {
+    params: {},
+    _params: [],
+    caseSensitive: false,
+    mergeParams: undefined,
+    strict: false,
+    stack: [ [Layer], [Layer], [Layer], [Layer] ]
+  }
+}
+> > undefined
+> ... ... ... ... ... ... ... <ref *1> [Function: app] {
+  _events: [Object: null prototype] { mount: [Function: onmount] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  off: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  rawListeners: [Function: rawListeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function (anonymous)],
+  bind: [Function (anonymous)],
+  checkout: [Function (anonymous)],
+  connect: [Function (anonymous)],
+  copy: [Function (anonymous)],
+  delete: [Function (anonymous)],
+  get: [Function (anonymous)],
+  head: [Function (anonymous)],
+  link: [Function (anonymous)],
+  lock: [Function (anonymous)],
+  'm-search': [Function (anonymous)],
+  merge: [Function (anonymous)],
+  mkactivity: [Function (anonymous)],
+  mkcalendar: [Function (anonymous)],
+  mkcol: [Function (anonymous)],
+  move: [Function (anonymous)],
+  notify: [Function (anonymous)],
+  options: [Function (anonymous)],
+  patch: [Function (anonymous)],
+  post: [Function (anonymous)],
+  propfind: [Function (anonymous)],
+  proppatch: [Function (anonymous)],
+  purge: [Function (anonymous)],
+  put: [Function (anonymous)],
+  rebind: [Function (anonymous)],
+  report: [Function (anonymous)],
+  search: [Function (anonymous)],
+  source: [Function (anonymous)],
+  subscribe: [Function (anonymous)],
+  trace: [Function (anonymous)],
+  unbind: [Function (anonymous)],
+  unlink: [Function (anonymous)],
+  unlock: [Function (anonymous)],
+  unsubscribe: [Function (anonymous)],
+  all: [Function: all],
+  del: [Function (anonymous)],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular *1] },
+  response: ServerResponse { app: [Circular *1] },
+  cache: {},
+  engines: {},
+  settings: {
+    'x-powered-by': true,
+    etag: 'weak',
+    'etag fn': [Function: generateETag],
+    env: 'development',
+    'query parser': 'extended',
+    'query parser fn': [Function: parseExtendedQueryString],
+    'subdomain offset': 2,
+    'trust proxy': false,
+    'trust proxy fn': [Function: trustNone],
+    view: [Function: View],
+    views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+    'jsonp callback name': 'callback'
+  },
+  locals: [Object: null prototype] {
+    settings: {
+      'x-powered-by': true,
+      etag: 'weak',
+      'etag fn': [Function: generateETag],
+      env: 'development',
+      'query parser': 'extended',
+      'query parser fn': [Function: parseExtendedQueryString],
+      'subdomain offset': 2,
+      'trust proxy': false,
+      'trust proxy fn': [Function: trustNone],
+      view: [Function: View],
+      views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+      'jsonp callback name': 'callback'
+    }
+  },
+  mountpath: '/',
+  _router: [Function: router] {
+    params: {},
+    _params: [],
+    caseSensitive: false,
+    mergeParams: undefined,
+    strict: false,
+    stack: [ [Layer], [Layer], [Layer], [Layer], [Layer] ]
+  }
+}
+> > ... ... ... ... ... ... Server {
+  maxHeaderSize: undefined,
+  insecureHTTPParser: undefined,
+  requestTimeout: 300000,
+  headersTimeout: 60000,
+  keepAliveTimeout: 5000,
+  connectionsCheckingInterval: 30000,
+  requireHostHeader: true,
+  joinDuplicateHeaders: undefined,
+  rejectNonStandardBodyWrites: false,
+  _events: [Object: null prototype] {
+    request: [Function: app] {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      setMaxListeners: [Function: setMaxListeners],
+      getMaxListeners: [Function: getMaxListeners],
+      emit: [Function: emit],
+      addListener: [Function: addListener],
+      on: [Function: addListener],
+      prependListener: [Function: prependListener],
+      once: [Function: once],
+      prependOnceListener: [Function: prependOnceListener],
+      removeListener: [Function: removeListener],
+      off: [Function: removeListener],
+      removeAllListeners: [Function: removeAllListeners],
+      listeners: [Function: listeners],
+      rawListeners: [Function: rawListeners],
+      listenerCount: [Function: listenerCount],
+      eventNames: [Function: eventNames],
+      init: [Function: init],
+      defaultConfiguration: [Function: defaultConfiguration],
+      lazyrouter: [Function: lazyrouter],
+      handle: [Function: handle],
+      use: [Function: use],
+      route: [Function: route],
+      engine: [Function: engine],
+      param: [Function: param],
+      set: [Function: set],
+      path: [Function: path],
+      enabled: [Function: enabled],
+      disabled: [Function: disabled],
+      enable: [Function: enable],
+      disable: [Function: disable],
+      acl: [Function (anonymous)],
+      bind: [Function (anonymous)],
+      checkout: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      copy: [Function (anonymous)],
+      delete: [Function (anonymous)],
+      get: [Function (anonymous)],
+      head: [Function (anonymous)],
+      link: [Function (anonymous)],
+      lock: [Function (anonymous)],
+      'm-search': [Function (anonymous)],
+      merge: [Function (anonymous)],
+      mkactivity: [Function (anonymous)],
+      mkcalendar: [Function (anonymous)],
+      mkcol: [Function (anonymous)],
+      move: [Function (anonymous)],
+      notify: [Function (anonymous)],
+      options: [Function (anonymous)],
+      patch: [Function (anonymous)],
+      post: [Function (anonymous)],
+      propfind: [Function (anonymous)],
+      proppatch: [Function (anonymous)],
+      purge: [Function (anonymous)],
+      put: [Function (anonymous)],
+      rebind: [Function (anonymous)],
+      report: [Function (anonymous)],
+      search: [Function (anonymous)],
+      source: [Function (anonymous)],
+      subscribe: [Function (anonymous)],
+      trace: [Function (anonymous)],
+      unbind: [Function (anonymous)],
+      unlink: [Function (anonymous)],
+      unlock: [Function (anonymous)],
+      unsubscribe: [Function (anonymous)],
+      all: [Function: all],
+      del: [Function (anonymous)],
+      render: [Function: render],
+      listen: [Function: listen],
+      request: [IncomingMessage],
+      response: [ServerResponse],
+      cache: {},
+      engines: {},
+      settings: [Object],
+      locals: [Object: null prototype],
+      mountpath: '/',
+      _router: [Function]
+    },
+    connection: [Function: connectionListener],
+    listening: [ [Function: setupConnectionsTracking], [Function] ]
+  },
+  _eventsCount: 3,
+  _maxListeners: undefined,
+  _connections: 0,
+  _handle: null,
+  _usingWorkers: false,
+  _workers: [],
+  _unref: false,
+  allowHalfOpen: true,
+  pauseOnConnect: false,
+  noDelay: true,
+  keepAlive: false,
+  keepAliveInitialDelay: 0,
+  highWaterMark: 16384,
+  httpAllowHalfOpen: false,
+  timeout: 0,
+  maxHeadersCount: null,
+  maxRequestsPerSocket: 0,
+  [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+  [Symbol(ServerResponse)]: [Function: ServerResponse],
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false,
+  [Symbol(async_id_symbol)]: 137,
+  [Symbol(kUniqueHeaders)]: null
+}
+> Uncaught Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\pedro.abenini\Documents\nodinho\app_1\node_modules\express\lib\application.js:635:24) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4000,
+  domainEmitter: Server {
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    requestTimeout: 300000,
+    headersTimeout: 60000,
+    keepAliveTimeout: 5000,
+    connectionsCheckingInterval: 30000,
+    requireHostHeader: true,
+    joinDuplicateHeaders: undefined,
+    rejectNonStandardBodyWrites: false,
+    _events: [Object: null prototype] {
+      request: [Function],
+      connection: [Function: connectionListener],
+      listening: [Array]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _connections: 0,
+    _handle: null,
+    _usingWorkers: false,
+    _workers: [],
+    _unref: false,
+    allowHalfOpen: true,
+    pauseOnConnect: false,
+    noDelay: true,
+    keepAlive: false,
+    keepAliveInitialDelay: 0,
+    highWaterMark: 16384,
+    httpAllowHalfOpen: false,
+    timeout: 0,
+    maxHeadersCount: null,
+    maxRequestsPerSocket: 0,
+    [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+    [Symbol(ServerResponse)]: [Function: ServerResponse],
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(async_id_symbol)]: 137,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  domainThrown: false
+}
+> > > Pare a aplicação no node
+     ^
+
+Uncaught SyntaxError: Unexpected identifier 'a'
+> Uncaught ReferenceError: ctrl is not defined
+> Uncaught ReferenceError: e is not defined
+> Execute novamente via node
+        ^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'novamente'
+> node index.js
+     ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'index'
+> > Abra o navegador e digite a rota
+     ^
+
+Uncaught SyntaxError: Unexpected identifier 'o'
+> ... ... Abra o navegador e digite a rota
+     ^
+
+Uncaught SyntaxError: Unexpected identifier 'o'
+> ... ... ... ... ... ... ---------------------------------------
+
+Uncaught SyntaxError: Invalid left-hand side expression in prefix operation
+> > ... ... ... ---------------------------------------
+
+Uncaught SyntaxError: Invalid left-hand side expression in prefix operation
+> O nodemon permitirá atualização em tempo real, sem a necessidade de parar o serviço e iniciá-lo novamente
+  ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'nodemon'
+> > npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> > PARA STARTAR O PROJETO COM NODEMON DEVERÁ USAR O COMANDO:
+     ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'STARTAR'
+> > nodemon start
+        ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'start'
+> > > > > > > > > > > > > NODE -> AMBIENTE DE EXECUÇÃO JAVASCRIPT
+      ^
+
+Uncaught SyntaxError: Unexpected token '>'
+> NPM - NODE PACKAGE MANAGEMENT
+           ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'PACKAGE'
+> > Express -> É um framework para Node.js que irá nos auxiliar nas requisições do back-end
+         ^
+
+Uncaught SyntaxError: Unexpected token '>'
+> undefined
+> Usado para construir aplicativos web e APIs (Interface de Programação de Aplicações) em Node.js de forma mais fácil e eficiente com rotas, middleware e interações HTTP em geral.
+      ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'para'
+> > REQUISIÇÕES HTTP -> POST (Envia) - GET (Retorna) - PUT(Update) - DELETE (Exclui) 
+            ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'HTTP'
+> > ROTA -> É o caminho (url) do projeto
+      ^
+
+Uncaught SyntaxError: Unexpected token '>'
+> > ... ... 1. Criar uma pasta node em documentos
+^^
+
+Uncaught SyntaxError: Invalid left-hand side expression in prefix operation
+> > 2. Abrir o Node js Command Prompt
+   ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Abrir'
+> > 3. Acessar a pasta node pelo Node Js Command Prompt
+   ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Acessar'
+> cd C:\Users\nelci.mpjunior\Documents\node
+   ^
+
+Uncaught SyntaxError: Unexpected identifier 'C'
+> > 4. Versão do Node
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Versão'
+> Uncaught ReferenceError: node is not defined
+> > 5. Versão do npm
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Versão'
+> Uncaught ReferenceError: npm is not defined
+> 10.2
+> > 6. Dentro da pasta node crie a pasta app_1 (Projeto app_1)
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Dentro'
+> > 7. Acesse o a pasta app_1 via node js command prompt
+   ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Acesse'
+> cd app_1
+   ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'app_1'
+> > 8. Criação de Projeto com o Node
+   ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criação'
+> npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> Irá fazer várias perguntas, dê enter
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'fazer'
+> > package name: (app_1)
+        ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'name'
+> Uncaught ReferenceError: version is not defined
+> description: Primeiro Projeto Node
+                      ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Projeto'
+> entry point: index.js
+      ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'point'
+> test command
+     ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'command'
+> git repository
+    ^^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'repository'
+> Uncaught ReferenceError: keywords is not defined
+> author: Nelci Mariano
+              ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Mariano'
+> ... ... 9. Atualizar a versão do node (Caso necessário)
+   ^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Atualizar'
+> npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> > 10. Abrir o Visual Studio Code e vincular o projeto app_1
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Abrir'
+> File -> add folder to workspace - Procurar a pasta do projeto e clicar em add
+      ^
+
+Uncaught SyntaxError: Unexpected token '>'
+> > 11. No projeto criado, visualize o arquivo package.json
+    ^^
+
+Uncaught SyntaxError: Unexpected identifier 'No'
+> Esse arquivo exibe informações do projeto
+     ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'arquivo'
+> > 12. Criar o arquivo index.js
+    ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criar'
+> Botão na pasta do projeto -> new file -> nomear o arquivo para index.js
+      ^^
+
+Uncaught SyntaxError: Unexpected identifier 'na'
+> > 13. Instalação do Express
+    ^^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Instalação'
+> npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> > 14. Criação da *codificação inicial* do projeto no arquivo index.js
+    ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criação'
+> > undefined
+> Uncaught SyntaxError: Identifier 'express' has already been declared
+> Uncaught SyntaxError: Identifier 'app' has already been declared
+> > undefined
+> ... ... ... ... ... ... Server {
+  maxHeaderSize: undefined,
+  insecureHTTPParser: undefined,
+  requestTimeout: 300000,
+  headersTimeout: 60000,
+  keepAliveTimeout: 5000,
+  connectionsCheckingInterval: 30000,
+  requireHostHeader: true,
+  joinDuplicateHeaders: undefined,
+  rejectNonStandardBodyWrites: false,
+  _events: [Object: null prototype] {
+    request: [Function: app] {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      setMaxListeners: [Function: setMaxListeners],
+      getMaxListeners: [Function: getMaxListeners],
+      emit: [Function: emit],
+      addListener: [Function: addListener],
+      on: [Function: addListener],
+      prependListener: [Function: prependListener],
+      once: [Function: once],
+      prependOnceListener: [Function: prependOnceListener],
+      removeListener: [Function: removeListener],
+      off: [Function: removeListener],
+      removeAllListeners: [Function: removeAllListeners],
+      listeners: [Function: listeners],
+      rawListeners: [Function: rawListeners],
+      listenerCount: [Function: listenerCount],
+      eventNames: [Function: eventNames],
+      init: [Function: init],
+      defaultConfiguration: [Function: defaultConfiguration],
+      lazyrouter: [Function: lazyrouter],
+      handle: [Function: handle],
+      use: [Function: use],
+      route: [Function: route],
+      engine: [Function: engine],
+      param: [Function: param],
+      set: [Function: set],
+      path: [Function: path],
+      enabled: [Function: enabled],
+      disabled: [Function: disabled],
+      enable: [Function: enable],
+      disable: [Function: disable],
+      acl: [Function (anonymous)],
+      bind: [Function (anonymous)],
+      checkout: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      copy: [Function (anonymous)],
+      delete: [Function (anonymous)],
+      get: [Function (anonymous)],
+      head: [Function (anonymous)],
+      link: [Function (anonymous)],
+      lock: [Function (anonymous)],
+      'm-search': [Function (anonymous)],
+      merge: [Function (anonymous)],
+      mkactivity: [Function (anonymous)],
+      mkcalendar: [Function (anonymous)],
+      mkcol: [Function (anonymous)],
+      move: [Function (anonymous)],
+      notify: [Function (anonymous)],
+      options: [Function (anonymous)],
+      patch: [Function (anonymous)],
+      post: [Function (anonymous)],
+      propfind: [Function (anonymous)],
+      proppatch: [Function (anonymous)],
+      purge: [Function (anonymous)],
+      put: [Function (anonymous)],
+      rebind: [Function (anonymous)],
+      report: [Function (anonymous)],
+      search: [Function (anonymous)],
+      source: [Function (anonymous)],
+      subscribe: [Function (anonymous)],
+      trace: [Function (anonymous)],
+      unbind: [Function (anonymous)],
+      unlink: [Function (anonymous)],
+      unlock: [Function (anonymous)],
+      unsubscribe: [Function (anonymous)],
+      all: [Function: all],
+      del: [Function (anonymous)],
+      render: [Function: render],
+      listen: [Function: listen],
+      request: [IncomingMessage],
+      response: [ServerResponse],
+      cache: {},
+      engines: {},
+      settings: [Object],
+      locals: [Object: null prototype],
+      mountpath: '/',
+      _router: [Function]
+    },
+    connection: [Function: connectionListener],
+    listening: [ [Function: setupConnectionsTracking], [Function] ]
+  },
+  _eventsCount: 3,
+  _maxListeners: undefined,
+  _connections: 0,
+  _handle: null,
+  _usingWorkers: false,
+  _workers: [],
+  _unref: false,
+  allowHalfOpen: true,
+  pauseOnConnect: false,
+  noDelay: true,
+  keepAlive: false,
+  keepAliveInitialDelay: 0,
+  highWaterMark: 16384,
+  httpAllowHalfOpen: false,
+  timeout: 0,
+  maxHeadersCount: null,
+  maxRequestsPerSocket: 0,
+  [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+  [Symbol(ServerResponse)]: [Function: ServerResponse],
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false,
+  [Symbol(async_id_symbol)]: 257,
+  [Symbol(kUniqueHeaders)]: null
+}
+> Uncaught Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\pedro.abenini\Documents\nodinho\app_1\node_modules\express\lib\application.js:635:24) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4000,
+  domainEmitter: Server {
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    requestTimeout: 300000,
+    headersTimeout: 60000,
+    keepAliveTimeout: 5000,
+    connectionsCheckingInterval: 30000,
+    requireHostHeader: true,
+    joinDuplicateHeaders: undefined,
+    rejectNonStandardBodyWrites: false,
+    _events: [Object: null prototype] {
+      request: [Function],
+      connection: [Function: connectionListener],
+      listening: [Array]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _connections: 0,
+    _handle: null,
+    _usingWorkers: false,
+    _workers: [],
+    _unref: false,
+    allowHalfOpen: true,
+    pauseOnConnect: false,
+    noDelay: true,
+    keepAlive: false,
+    keepAliveInitialDelay: 0,
+    highWaterMark: 16384,
+    httpAllowHalfOpen: false,
+    timeout: 0,
+    maxHeadersCount: null,
+    maxRequestsPerSocket: 0,
+    [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+    [Symbol(ServerResponse)]: [Function: ServerResponse],
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(async_id_symbol)]: 257,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  domainThrown: false
+}
+> > 15. Startar a aplicação via node js command prompt
+    ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Startar'
+> node index.js
+     ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'index'
+> > 16. Criação das rotas e chamada no navegador
+    ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'Criação'
+> > Uncaught SyntaxError: Identifier 'express' has already been declared
+> Uncaught SyntaxError: Identifier 'app' has already been declared
+> > undefined
+> ... ... <ref *1> [Function: app] {
+  _events: [Object: null prototype] { mount: [Function: onmount] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  off: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  rawListeners: [Function: rawListeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function (anonymous)],
+  bind: [Function (anonymous)],
+  checkout: [Function (anonymous)],
+  connect: [Function (anonymous)],
+  copy: [Function (anonymous)],
+  delete: [Function (anonymous)],
+  get: [Function (anonymous)],
+  head: [Function (anonymous)],
+  link: [Function (anonymous)],
+  lock: [Function (anonymous)],
+  'm-search': [Function (anonymous)],
+  merge: [Function (anonymous)],
+  mkactivity: [Function (anonymous)],
+  mkcalendar: [Function (anonymous)],
+  mkcol: [Function (anonymous)],
+  move: [Function (anonymous)],
+  notify: [Function (anonymous)],
+  options: [Function (anonymous)],
+  patch: [Function (anonymous)],
+  post: [Function (anonymous)],
+  propfind: [Function (anonymous)],
+  proppatch: [Function (anonymous)],
+  purge: [Function (anonymous)],
+  put: [Function (anonymous)],
+  rebind: [Function (anonymous)],
+  report: [Function (anonymous)],
+  search: [Function (anonymous)],
+  source: [Function (anonymous)],
+  subscribe: [Function (anonymous)],
+  trace: [Function (anonymous)],
+  unbind: [Function (anonymous)],
+  unlink: [Function (anonymous)],
+  unlock: [Function (anonymous)],
+  unsubscribe: [Function (anonymous)],
+  all: [Function: all],
+  del: [Function (anonymous)],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular *1] },
+  response: ServerResponse { app: [Circular *1] },
+  cache: {},
+  engines: {},
+  settings: {
+    'x-powered-by': true,
+    etag: 'weak',
+    'etag fn': [Function: generateETag],
+    env: 'development',
+    'query parser': 'extended',
+    'query parser fn': [Function: parseExtendedQueryString],
+    'subdomain offset': 2,
+    'trust proxy': false,
+    'trust proxy fn': [Function: trustNone],
+    view: [Function: View],
+    views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+    'jsonp callback name': 'callback'
+  },
+  locals: [Object: null prototype] {
+    settings: {
+      'x-powered-by': true,
+      etag: 'weak',
+      'etag fn': [Function: generateETag],
+      env: 'development',
+      'query parser': 'extended',
+      'query parser fn': [Function: parseExtendedQueryString],
+      'subdomain offset': 2,
+      'trust proxy': false,
+      'trust proxy fn': [Function: trustNone],
+      view: [Function: View],
+      views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+      'jsonp callback name': 'callback'
+    }
+  },
+  mountpath: '/',
+  _router: [Function: router] {
+    params: {},
+    _params: [],
+    caseSensitive: false,
+    mergeParams: undefined,
+    strict: false,
+    stack: [ [Layer], [Layer], [Layer], [Layer], [Layer], [Layer] ]
+  }
+}
+> > undefined
+> ... ... <ref *1> [Function: app] {
+  _events: [Object: null prototype] { mount: [Function: onmount] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  off: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  rawListeners: [Function: rawListeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function (anonymous)],
+  bind: [Function (anonymous)],
+  checkout: [Function (anonymous)],
+  connect: [Function (anonymous)],
+  copy: [Function (anonymous)],
+  delete: [Function (anonymous)],
+  get: [Function (anonymous)],
+  head: [Function (anonymous)],
+  link: [Function (anonymous)],
+  lock: [Function (anonymous)],
+  'm-search': [Function (anonymous)],
+  merge: [Function (anonymous)],
+  mkactivity: [Function (anonymous)],
+  mkcalendar: [Function (anonymous)],
+  mkcol: [Function (anonymous)],
+  move: [Function (anonymous)],
+  notify: [Function (anonymous)],
+  options: [Function (anonymous)],
+  patch: [Function (anonymous)],
+  post: [Function (anonymous)],
+  propfind: [Function (anonymous)],
+  proppatch: [Function (anonymous)],
+  purge: [Function (anonymous)],
+  put: [Function (anonymous)],
+  rebind: [Function (anonymous)],
+  report: [Function (anonymous)],
+  search: [Function (anonymous)],
+  source: [Function (anonymous)],
+  subscribe: [Function (anonymous)],
+  trace: [Function (anonymous)],
+  unbind: [Function (anonymous)],
+  unlink: [Function (anonymous)],
+  unlock: [Function (anonymous)],
+  unsubscribe: [Function (anonymous)],
+  all: [Function: all],
+  del: [Function (anonymous)],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular *1] },
+  response: ServerResponse { app: [Circular *1] },
+  cache: {},
+  engines: {},
+  settings: {
+    'x-powered-by': true,
+    etag: 'weak',
+    'etag fn': [Function: generateETag],
+    env: 'development',
+    'query parser': 'extended',
+    'query parser fn': [Function: parseExtendedQueryString],
+    'subdomain offset': 2,
+    'trust proxy': false,
+    'trust proxy fn': [Function: trustNone],
+    view: [Function: View],
+    views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+    'jsonp callback name': 'callback'
+  },
+  locals: [Object: null prototype] {
+    settings: {
+      'x-powered-by': true,
+      etag: 'weak',
+      'etag fn': [Function: generateETag],
+      env: 'development',
+      'query parser': 'extended',
+      'query parser fn': [Function: parseExtendedQueryString],
+      'subdomain offset': 2,
+      'trust proxy': false,
+      'trust proxy fn': [Function: trustNone],
+      view: [Function: View],
+      views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+      'jsonp callback name': 'callback'
+    }
+  },
+  mountpath: '/',
+  _router: [Function: router] {
+    params: {},
+    _params: [],
+    caseSensitive: false,
+    mergeParams: undefined,
+    strict: false,
+    stack: [
+      [Layer], [Layer],
+      [Layer], [Layer],
+      [Layer], [Layer],
+      [Layer]
+    ]
+  }
+}
+> > undefined
+> ... ... ... ... ... ... ... <ref *1> [Function: app] {
+  _events: [Object: null prototype] { mount: [Function: onmount] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  off: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  rawListeners: [Function: rawListeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function (anonymous)],
+  bind: [Function (anonymous)],
+  checkout: [Function (anonymous)],
+  connect: [Function (anonymous)],
+  copy: [Function (anonymous)],
+  delete: [Function (anonymous)],
+  get: [Function (anonymous)],
+  head: [Function (anonymous)],
+  link: [Function (anonymous)],
+  lock: [Function (anonymous)],
+  'm-search': [Function (anonymous)],
+  merge: [Function (anonymous)],
+  mkactivity: [Function (anonymous)],
+  mkcalendar: [Function (anonymous)],
+  mkcol: [Function (anonymous)],
+  move: [Function (anonymous)],
+  notify: [Function (anonymous)],
+  options: [Function (anonymous)],
+  patch: [Function (anonymous)],
+  post: [Function (anonymous)],
+  propfind: [Function (anonymous)],
+  proppatch: [Function (anonymous)],
+  purge: [Function (anonymous)],
+  put: [Function (anonymous)],
+  rebind: [Function (anonymous)],
+  report: [Function (anonymous)],
+  search: [Function (anonymous)],
+  source: [Function (anonymous)],
+  subscribe: [Function (anonymous)],
+  trace: [Function (anonymous)],
+  unbind: [Function (anonymous)],
+  unlink: [Function (anonymous)],
+  unlock: [Function (anonymous)],
+  unsubscribe: [Function (anonymous)],
+  all: [Function: all],
+  del: [Function (anonymous)],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular *1] },
+  response: ServerResponse { app: [Circular *1] },
+  cache: {},
+  engines: {},
+  settings: {
+    'x-powered-by': true,
+    etag: 'weak',
+    'etag fn': [Function: generateETag],
+    env: 'development',
+    'query parser': 'extended',
+    'query parser fn': [Function: parseExtendedQueryString],
+    'subdomain offset': 2,
+    'trust proxy': false,
+    'trust proxy fn': [Function: trustNone],
+    view: [Function: View],
+    views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+    'jsonp callback name': 'callback'
+  },
+  locals: [Object: null prototype] {
+    settings: {
+      'x-powered-by': true,
+      etag: 'weak',
+      'etag fn': [Function: generateETag],
+      env: 'development',
+      'query parser': 'extended',
+      'query parser fn': [Function: parseExtendedQueryString],
+      'subdomain offset': 2,
+      'trust proxy': false,
+      'trust proxy fn': [Function: trustNone],
+      view: [Function: View],
+      views: 'C:\\Users\\pedro.abenini\\Documents\\nodinho\\app_1\\views',
+      'jsonp callback name': 'callback'
+    }
+  },
+  mountpath: '/',
+  _router: [Function: router] {
+    params: {},
+    _params: [],
+    caseSensitive: false,
+    mergeParams: undefined,
+    strict: false,
+    stack: [
+      [Layer], [Layer],
+      [Layer], [Layer],
+      [Layer], [Layer],
+      [Layer], [Layer]
+    ]
+  }
+}
+> > ... ... ... ... ... ... Server {
+  maxHeaderSize: undefined,
+  insecureHTTPParser: undefined,
+  requestTimeout: 300000,
+  headersTimeout: 60000,
+  keepAliveTimeout: 5000,
+  connectionsCheckingInterval: 30000,
+  requireHostHeader: true,
+  joinDuplicateHeaders: undefined,
+  rejectNonStandardBodyWrites: false,
+  _events: [Object: null prototype] {
+    request: [Function: app] {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      setMaxListeners: [Function: setMaxListeners],
+      getMaxListeners: [Function: getMaxListeners],
+      emit: [Function: emit],
+      addListener: [Function: addListener],
+      on: [Function: addListener],
+      prependListener: [Function: prependListener],
+      once: [Function: once],
+      prependOnceListener: [Function: prependOnceListener],
+      removeListener: [Function: removeListener],
+      off: [Function: removeListener],
+      removeAllListeners: [Function: removeAllListeners],
+      listeners: [Function: listeners],
+      rawListeners: [Function: rawListeners],
+      listenerCount: [Function: listenerCount],
+      eventNames: [Function: eventNames],
+      init: [Function: init],
+      defaultConfiguration: [Function: defaultConfiguration],
+      lazyrouter: [Function: lazyrouter],
+      handle: [Function: handle],
+      use: [Function: use],
+      route: [Function: route],
+      engine: [Function: engine],
+      param: [Function: param],
+      set: [Function: set],
+      path: [Function: path],
+      enabled: [Function: enabled],
+      disabled: [Function: disabled],
+      enable: [Function: enable],
+      disable: [Function: disable],
+      acl: [Function (anonymous)],
+      bind: [Function (anonymous)],
+      checkout: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      copy: [Function (anonymous)],
+      delete: [Function (anonymous)],
+      get: [Function (anonymous)],
+      head: [Function (anonymous)],
+      link: [Function (anonymous)],
+      lock: [Function (anonymous)],
+      'm-search': [Function (anonymous)],
+      merge: [Function (anonymous)],
+      mkactivity: [Function (anonymous)],
+      mkcalendar: [Function (anonymous)],
+      mkcol: [Function (anonymous)],
+      move: [Function (anonymous)],
+      notify: [Function (anonymous)],
+      options: [Function (anonymous)],
+      patch: [Function (anonymous)],
+      post: [Function (anonymous)],
+      propfind: [Function (anonymous)],
+      proppatch: [Function (anonymous)],
+      purge: [Function (anonymous)],
+      put: [Function (anonymous)],
+      rebind: [Function (anonymous)],
+      report: [Function (anonymous)],
+      search: [Function (anonymous)],
+      source: [Function (anonymous)],
+      subscribe: [Function (anonymous)],
+      trace: [Function (anonymous)],
+      unbind: [Function (anonymous)],
+      unlink: [Function (anonymous)],
+      unlock: [Function (anonymous)],
+      unsubscribe: [Function (anonymous)],
+      all: [Function: all],
+      del: [Function (anonymous)],
+      render: [Function: render],
+      listen: [Function: listen],
+      request: [IncomingMessage],
+      response: [ServerResponse],
+      cache: {},
+      engines: {},
+      settings: [Object],
+      locals: [Object: null prototype],
+      mountpath: '/',
+      _router: [Function]
+    },
+    connection: [Function: connectionListener],
+    listening: [ [Function: setupConnectionsTracking], [Function] ]
+  },
+  _eventsCount: 3,
+  _maxListeners: undefined,
+  _connections: 0,
+  _handle: null,
+  _usingWorkers: false,
+  _workers: [],
+  _unref: false,
+  allowHalfOpen: true,
+  pauseOnConnect: false,
+  noDelay: true,
+  keepAlive: false,
+  keepAliveInitialDelay: 0,
+  highWaterMark: 16384,
+  httpAllowHalfOpen: false,
+  timeout: 0,
+  maxHeadersCount: null,
+  maxRequestsPerSocket: 0,
+  [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+  [Symbol(ServerResponse)]: [Function: ServerResponse],
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false,
+  [Symbol(async_id_symbol)]: 295,
+  [Symbol(kUniqueHeaders)]: null
+}
+> Uncaught Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\pedro.abenini\Documents\nodinho\app_1\node_modules\express\lib\application.js:635:24) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4000,
+  domainEmitter: Server {
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    requestTimeout: 300000,
+    headersTimeout: 60000,
+    keepAliveTimeout: 5000,
+    connectionsCheckingInterval: 30000,
+    requireHostHeader: true,
+    joinDuplicateHeaders: undefined,
+    rejectNonStandardBodyWrites: false,
+    _events: [Object: null prototype] {
+      request: [Function],
+      connection: [Function: connectionListener],
+      listening: [Array]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _connections: 0,
+    _handle: null,
+    _usingWorkers: false,
+    _workers: [],
+    _unref: false,
+    allowHalfOpen: true,
+    pauseOnConnect: false,
+    noDelay: true,
+    keepAlive: false,
+    keepAliveInitialDelay: 0,
+    highWaterMark: 16384,
+    httpAllowHalfOpen: false,
+    timeout: 0,
+    maxHeadersCount: null,
+    maxRequestsPerSocket: 0,
+    [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+    [Symbol(ServerResponse)]: [Function: ServerResponse],
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(async_id_symbol)]: 295,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  domainThrown: false
+}
+> > > Pare a aplicação no node
+     ^
+
+Uncaught SyntaxError: Unexpected identifier 'a'
+> Uncaught ReferenceError: ctrl is not defined
+> Uncaught ReferenceError: e is not defined
+> Execute novamente via node
+        ^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'novamente'
+> node index.js
+     ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'index'
+> > Abra o navegador e digite a rota
+     ^
+
+Uncaught SyntaxError: Unexpected identifier 'o'
+> ... ... Abra o navegador e digite a rota
+     ^
+
+Uncaught SyntaxError: Unexpected identifier 'o'
+> ... ... ... ... ... ... ---------------------------------------
+
+Uncaught SyntaxError: Invalid left-hand side expression in prefix operation
+> > ... ... ... ---------------------------------------
+
+Uncaught SyntaxError: Invalid left-hand side expression in prefix operation
+> O nodemon permitirá atualização em tempo real, sem a necessidade de parar o serviço e iniciá-lo novamente
+  ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'nodemon'
+> > npm should be run outside of the Node.js REPL, in your normal shell.
+(Press Ctrl+D to exit.)
+> > PARA STARTAR O PROJETO COM NODEMON DEVERÁ USAR O COMANDO:
+     ^^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'STARTAR'
+> > nodemon start
+        ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'start'
+> > > > > > > > > > > > > 

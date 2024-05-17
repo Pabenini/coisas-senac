@@ -1,0 +1,14 @@
+{
+  "name": "app_atividade1",
+  "version": "1.0.0",
+  "description": "indicador",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro b",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
