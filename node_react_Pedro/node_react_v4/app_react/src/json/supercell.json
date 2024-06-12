@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "images": "/images/logo-1.png",
+            "text": "Clash Royale"
+        },
+        {
+            "id": 2,
+            "images": "/images/logo-2.png",
+            "text": "Brawl Stars"
+        },
+        {
+            "id": 3,
+            "images": "/images/logo-3.png",
+            "text": "Clash of Clans"
+        },
+        {
+            "id": 4,
+            "images": "/images/logo-4.png",
+            "text": "Boom Beach"
+        },
+        {
+            "id": 5,
+            "images": "/images/logo-5.png",
+            "text": "Squad Busters"
+        },
+        {
+            "id": 6,
+            "images": "/images/logo-6.png",
+            "text": "Hay Day"
+        }
+    ]
+}

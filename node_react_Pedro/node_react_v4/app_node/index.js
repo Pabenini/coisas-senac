@@ -20,6 +20,8 @@ app.use((req, res, next) => {
 // Conexão com o students.js
 const students = require('./models/students')
 const users = require('./models/users')
+const books = require('./models/books')
+
 
 // A linha abaixo permitirá requisições do body para o POST
 app.use(express.json());
@@ -27,6 +29,45 @@ app.use(express.json());
 /*
 ROTAS COM BANCO DE DADOS
 */
+
+
+// INSERT Books
+//  Create Books
+app.post("/create-books", async (req, res) => {
+  const { boo_name, boo_description } = req.body;
+
+  await books.create(req.body).
+      then(() => {
+          return res.json({
+              error: false,
+              message: "Cadastro Books Realizado"
+          });
+      }).catch(() => {
+          return res.status(400).json({
+              error: true,
+              message: "Erro: Cadastro Não Realizado"
+          });
+      });
+});
+
+// SELECT students
+app.get("/select-books", async (req, res) => { //async define uma função assíncrona
+  await books.findAll({ // await na função assincrona indica o ponto a ser aguardado
+      attributes: ['boo_id', 'boo_name', 'boo_description'], //Indica as colunas
+      order: [['boo_id', 'DESC']] //order by
+  })
+      .then((books) => { // then -> recebe uma função callback, retorna um "objeto-promessa"
+          return res.json({
+              erro: false,
+              books
+          });
+      }).catch(() => {
+          return res.status(400).json({
+              erro: true,
+              mensagem: "Erro: Nenhum registro encontrado!"
+          });
+      });
+});
 
 // INSERT users
 //  Create users
@@ -86,8 +127,6 @@ app.get("/select-students", async (req, res) => { //async define uma função as
           });
       });
 });
-
-
 
 app.get('/', (req, res) => {
   res.send('Rota Inicial')

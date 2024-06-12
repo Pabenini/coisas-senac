@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom';
 
 import api from '../../config/configApi';
 
-// export const AddUser = () => {
-export default function User() {
+// export const books = () => {
+export default function books() {
 
-    const [user, setUser] = useState({
-        usr_name: '',
-        usr_login: '',
-        usr_pass: ''
+    const [books, setbooks] = useState({
+        boo_name: '',
+        boo_description: ''
     });
 
     const [status, setStatus] = useState({
@@ -19,9 +18,9 @@ export default function User() {
     });
 
     //Captura os dados do formulário
-    const valueInput = e => setUser({ ...user, [e.target.name]: e.target.value });
+    const valueInput = e => setbooks({ ...books, [e.target.name]: e.target.value });
     
-    const addUser = async e => {
+    const addbooks = async e => {
         e.preventDefault();
 
         const headers = {
@@ -30,7 +29,7 @@ export default function User() {
             }
         };
 
-        await api.post('/create-users', user, headers)
+        await api.post('/create-books', books, headers)
             .then((response) => {
                 setStatus({
                     type: 'success',
@@ -53,27 +52,22 @@ export default function User() {
 
     return (
         <div>
-            <h1 style={{textAlign: 'center'}}>Cadastro</h1>
+            <h1>Cadastrar Books</h1>
 
             {/* {status.type === 'error' ? <p>{status.mensagem}</p> : ""} */}
-            {status.type === 'error' ? <p style={{textAlign: 'center'}}>error</p> : ""}
+            {status.type === 'error' ? <p>error</p> : ""}
             {/* {status.type === 'success' ? <p>{status.mensagem}</p> : ""} */}
-            {status.type === 'success' ? <p style={{textAlign: 'center'}}>ok</p> : ""}
+            {status.type === 'success' ? <p>ok</p> : ""}
 
-            <form onSubmit={addUser} style={{ textAlign: 'center',}}>
+            <form onSubmit={addbooks} style={{ margin: '20px'}}>
             {/* <form style={{ margin: '20px'}}> */}
-                <label>Username: </label>
-                <input type="text" name="usr_name" placeholder="Nome de Usuário" onChange={valueInput} /><br /><br />
+                <label>Nome: </label>
+                <input type="text" name="boo_name" placeholder="Nome" onChange={valueInput} /><br /><br />
 
-                <label>Login: </label>
-                <input type="text" name="usr_login" placeholder="Digite um e-mail" onChange={valueInput} /><br /><br />
+                <label>Descrição: </label>
+                <input type="text" name="boo_description" placeholder="Descrição" onChange={valueInput} /><br /><br />
 
-                <label>Senha: </label>
-                <input type="password" name="usr_pass" placeholder="Senha" autoComplete="on" onChange={valueInput} /><br /><br />
-
-                {/* <input type="text" /> */}
-
-                <button type="submit">Registrar</button>
+                <button type="submit">Cadastrar</button>
             </form>
         </div>
     );
