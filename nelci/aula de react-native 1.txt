@@ -1,0 +1,13 @@
+aula de react-native - nelci
+criar uma pasta chamada 'react-native'
+colocar a rota no node.js command prompt
+escrever 'npx create-expo-app@latest' = vai criar uma pasta nova chamada app-1
+entrar na pasta app-1
+--------------------------------------------------------------------------
+entrar no site https://reactnative.dev/docs/environment-setup
+entrar no site https://docs.expo.dev/get-started/start-developing/
+comando para startar o app 'npx expo start'
+--------------------------------------------------------------------------
+por a pasta no vsc
+--------------------------------------------------------------------------
+inserir o comando 'npm run reset-project' para limpar o projeto

@@ -1,0 +1,88 @@
+https://docs.expo.dev/
+
+1. Crie uma pasta no PC para armazenar o Projeto
+
+2. Acesse a pasta via "node js command prompt"
+
+3. Comando para Criar o Projeto React-Native
+	-> npx create-expo-app@latest
+
+4. Comando para Startar o App
+	-> npx expo start
+
+5. Vincular o Projeto ao Visual Studio Code
+	-> File -> Add Folder to WorkSpace
+
+6. Reset no Projeto para que a aplicação inicie com menos arquivos
+	-> npm run reset-project
+
+7. No visual studio code, após a execução do Projeto edite o arquivo inicial da aplicação
+
+app/index.txs
+
+*******************
+
+import { Text, View } from "react-native";
+
+export default function Index() {
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Text>Edit app/index.tsx to edit this screen.</Text>
+    </View>
+  );
+}
+
+Explicação da codificação 
+
+Text, View -> Componentes
+
+export default function Index -> É Um componente
+
+style -> Refere-se a estilização
+
+
+
+
+8. Inserção de Imagem (OBS: As imagens são salvas no diretório assets)
+
+app/index.txs
+
+*******************
+
+
+
+import { Text, View, Image, } from "react-native";
+
+export default function Index() {
+  return (
+    <View
+    style={{
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}
+    >
+     
+      <Image       
+      style={{ width: 300, 
+        height: 300, 
+        borderRadius: 300 
+      }}
+      source={require('../assets/images/logo-cafe.jpg')} 
+      />
+
+      <Text>Edit app/index.tsx to edit this screen.</Text>
+
+
+    </View>
+  );
+}
+
+
+
