@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="img-fluid border mx-auto d-block" src="img/Logo.jpg" alt="Logotipo SENAC">
+        <nav class="text-center">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="aula1.html">Aula 1</a></li>
+                <li><a href="aula2.html">Aula 2</a></li>
+                <li><a href="aula3.html">Aula 3</a></li>
+                <li><a href="aula4.html">Aula 4</a></li>
+                <li><a href="atividade.html">Atividade</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <section>
+            <h2 class="text-center">
+                <b>Aula 3</b> - Criação de Requisições HTTP GET com Insomnia
+            </h2>
+            <hr>
+            Nesta aula vamos criar as requisições HTTP GET com Insomnia.
+            <br />
+            Atenção: Para o teste de qualquer requisição HTTP, é necessário que a aplicação esteja rodando, para isso
+            utilize o comando <b>nodemon app.js</b> no terminal Node JS Command Prompt.
+            <br />
+
+            <b>Visual Studio Code</b>
+            <ol>
+                <li>Abra o Visual Studio Code</li>
+                <li>Abra a pasta do projeto</li>
+                <li>Abra o arquivo <b>app.js</b></li>
+                <li> Crie a Rota a seguir com o modo de programação arrow function</li>
+                <br />
+                <code>
+                    app.get("/bemvindo",(req,res) => { <br />
+                        &nbsp;    res.send("<span>Bem vindo Desenvolvedor</span>"); <br />
+                    }); <br />
+                </code>
+                <br />
+                <li>Abra o Terminal Node JS Command Prompt, acesse o projeto e execute o comando para startar a
+                    aplicação
+                </li>
+                <code>nodemon app.js</code>
+            </ol>
+            <hr>
+            <b>Insomnia</b>
+            <p>
+                O método do tipo <b>GET</b> funciona tranquilamente no navegador, porém os métodos <b>POST, PUT e
+                    DELETE</b> não funcionam diretamente no navegador, para testar esses métodos utilizaremos o
+                Insomnia.
+                <br />
+                O Insomnia é uma ferramenta que permite testar requisições HTTP, como o <b>GET, POST, PUT e DELETE</b>
+                de forma simples e eficiente.
+                <br />
+                A seguir a primeira requisição no Insomnia será através do método <b>GET.</b> OBS: O GET funciona tanto
+                no navegador quanto no Insomnia.
+            </p>
+            <ol>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b> e altere para <b>bemvindo</b>
+                </li>
+                <li>Selecione o método <b>GET</b> na URL</li>
+                <li> Abra o Terminal Node JS Command Prompt, acesse o projeto e execute o comando para startar a
+                    aplicação</li>
+                <code>nodemon app.js</code>
+                <li>Volte ao Insomnia e Digite na URL <b>http://localhost:4000/bemvindo</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <img src="img/aula3/insomnia-1.png" alt="Insomnia" class="img-fluid">
+
+            </ol>
+            <hr>
+            <ol>
+                <li> Crie a Rota a seguir com Retorno com json</li>
+                <br />
+                <code>
+                    //Retorno com json <br />
+                    app.get("/json", function (req, res) { <br />
+                    &nbsp;  return res.json({ <br />
+                    &nbsp;  course: 'Node Js', <br />
+                    &nbsp;  title: 'Desenvolvimento de API', <br />
+                    &nbsp;  description: 'Aprenda a desenvolver uma API com Node Js', <br />
+                    &nbsp;  date: '2024-07-20' <br />
+                    &nbsp;  }) <br />
+                    }); <br />
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>GET</b> na URL</li>
+                <li>Digite na URL <b>http://localhost:4000/json</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <img src="img/aula3/insomnia-2-json.png" alt="Insomnia" class="img-fluid">
+            </ol>
+            <hr>
+
+            <b>Requisições com Query Params, Route Params e Request Body</b>
+            <p>
+                Além das requisições GET, POST, PUT e DELETE, também é possível trabalhar com Query Params, Route Params
+                e Request Body.
+            </p>
+            <hr>
+            <b>Query Params</b>
+            <p>
+                Query Params são parâmetros passados na frente da rota, na URL. Por exemplo, na rota
+                <code>/curso?nome=Javascript</code>, o parâmetro <code>nome</code> possui o valor
+                <code>Javascript</code>.
+            </p>
+            <ol>
+                <li>Crie uma nova rota com o método GET e o caminho <code>/curso</code></li>
+                <li>No callback da rota, obtenha o valor do parâmetro <code>nome</code> usando
+                    <code>req.query.nome</code>
+                </li>
+                <li>Retorne o valor obtido em formato JSON, por exemplo: <code>{ curso: `Aprendendo ${nome}` }</code>
+                </li>
+                <li> Codificação </li>
+                <code>
+                    app.get("/curso", function (req, res) { <br />
+                        &nbsp;    let nome = req.query.nome; <br />
+                        &nbsp;    return res.json({ curso: `Aprendendo ${nome}` }); <br />
+                    });
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>GET</b> na URL</li>
+                <li>Digite na URL <b>http://localhost:4000/curso?nome=Javascript</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <img src="img/aula3/insomnia-3-queryparams.png" alt="Insomnia" class="img-fluid">
+            </ol>
+            <hr>
+            <b>Route Params</b>
+            <p>
+                Route Params são parâmetros passados via URL com a barra (/). Por exemplo, na rota
+                <code>/turma/2</code>, o parâmetro <code>id</code> possui o valor <code>2</code>.
+            </p>
+            <ol>
+                <li>Crie uma nova rota com o método GET e o caminho <code>/turma/:id</code></li>
+                <li>No callback da rota, obtenha o valor do parâmetro <code>id</code> usando <code>req.params.id</code>
+                </li>
+                <li>Retorne o valor obtido em formato JSON, por exemplo: <code>{ turma: `Turma: ${id}` }</code></li>
+            </ol>
+            <li> Codificação </li>
+            <code>
+                app.get("/turma/:id", function (req, res) { <br />
+                    &nbsp;    let id = req.params.id; <br />
+                    &nbsp;    return res.json({ turma: `Turma: ${id}` }); <br />
+                }); <br />
+            </code>
+            <li>Abra o Insomnia</li>
+            <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+            <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+            <li>Selecione o método <b>GET</b> na URL</li>
+            <li>Digite na URL <b>http://localhost:4000/turma/2</b> e clique no botão
+                <b>Send</b> para efetuar a requisição
+            </li>
+            <img src="img/aula3/insomnia-4-routeparams.png" alt="Insomnia" class="img-fluid">
+            <hr>
+            <b>Request Body</b>
+            <p>
+                Request Body são parâmetros passados no corpo da requisição. Por exemplo, na rota
+                <code>/contato/5?sit=ativo</code>, o parâmetro <code>id</code> possui o valor <code>5</code> e o
+                parâmetro <code>sit</code> possui o valor <code>ativo</code>.
+            </p>
+            <ol>
+                <li>Crie uma nova rota com o método GET e o caminho <code>/contato/:id</code></li>
+                <li>No callback da rota, obtenha o valor do parâmetro <code>id</code> usando <code>req.params.id</code>
+                </li>
+                <li>Obtenha o valor do parâmetro <code>sit</code> usando <code>req.query.sit</code></li>
+                <li>Retorne os valores obtidos em formato JSON, por exemplo:
+                    <code>{ id, sit, nome: 'Nelci', email: 'professornelcimariano@gmail.com' }</code>
+                </li>
+                <li> Codificação </li>
+                <code>
+                    app.get("/contato/:id", function (req, res) { <br />
+                        &nbsp;    let id = req.params.id; <br />
+                        &nbsp;    let sit = req.query.sit; <br />
+                        return res.json({ id, sit, nome: 'Nelci', email: professornelcimariano@gmail.com }); <br />
+                    }); <br />
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>GET</b> na URL</li>
+                <li>Digite na URL <b>http://localhost:4000/contato/5?sit=ativo</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <img src="img/aula3/insomnia-5-requestbody.png" alt="Insomnia" class="img-fluid">
+            </ol>
+            <hr>
+            <b>Retorno com Array</b>
+            <p>
+                É possível retornar um array como resposta de uma requisição.
+            </p>
+            <ol>
+                <li>Crie um array chamado <b>cursos</b>: <br />
+                    <code>let cursos = ['Node JS', 'Javascript', 'React']</code>
+                </li>
+                <li>Crie uma nova rota com o método GET e o caminho <code>/cursos/:index</code></li>
+                <li>No callback da rota, obtenha o valor do parâmetro <code>index</code> usando
+                    <code>req.params.index</code>
+                </li>
+                <li>Retorne o valor correspondente ao índice obtido do array <code>cursos</code></li>
+                <li> Codificação </li>
+                <code>
+                    let cursos = ['Node JS', 'Javascript', 'React']; <br />
+                    <br />
+                    app.get("/cursos/:index", function (req, res) { <br />
+                        &nbsp;    const {index} = req.params; <br />
+                        &nbsp;    return res.json(cursos[index]); <br />
+                    }); <br />
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>GET</b> na URL</li>
+                <li>Digite na URL <b>http://localhost:4000/cursos/1</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <li>Atenção: Os elementos do array possui apenas os índices 0, 1 e 2 pois o array só possui 3 valores
+                </li>
+                <img src="img/aula3/insomnia-6-array-single.png" alt="Insomnia" class="img-fluid">
+            </ol>
+            <hr>
+            <b>Retorno de Todos os Cursos</b>
+            <p>
+                É possível retornar todos os cursos como resposta de uma requisição.
+            </p>
+            <ol>
+                <li>Crie uma nova rota com o método GET e o caminho <code>/cursos</code></li>
+                <li>Retorne o array <code>cursos</code> em formato JSON</li>
+                <li> Codificação </li>
+                <code>
+                    app.get("/cursos", function (req, res) { <br />
+                        &nbsp;    return res.json(cursos); <br />
+                    }); <br />
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>GET</b> na URL</li>
+                <li>Digite na URL <b>http://localhost:4000/cursos</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <img src="img/aula3/insomnia-7-array.png" alt="Insomnia" class="img-fluid">
+            </ol>
+
+
+
+
+        </section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

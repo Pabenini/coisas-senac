@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="img-fluid border mx-auto d-block" src="img/Logo.jpg" alt="Logotipo SENAC">
+        <nav class="text-center">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="aula1.html">Aula 1</a></li>
+                <li><a href="aula2.html">Aula 2</a></li>
+                <li><a href="aula3.html">Aula 3</a></li>
+                <li><a href="aula4.html">Aula 4</a></li>
+                <li><a href="atividade.html">Atividade</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <section>
+            <h2 class="text-center">
+                <b>Aula 4</b> - Criação de Requisições HTTP POST, PUT e DELETE
+            </h2>
+            <hr>
+            Nesta aula vamos criar as demais requisições HTTP.
+            <br />
+            Atenção: Para o teste de qualquer requisição HTTP, é necessário que a aplicação esteja rodando, para isso
+            utilize o comando <b>nodemon app.js</b> no terminal Node JS Command Prompt.
+            <br />           
+            <hr>
+            <b>Requisição POST - Enviar um Curso</b>
+            <p>
+                Para realizar uma requisição do tipo POST com JSON, é necessário adicionar o código
+                <code>app.use(express.json())</code> no início da aplicação.
+            </p>
+            <ol>
+                <li>Crie uma nova rota com o método POST e o caminho <code>/cursos</code></li>
+                <li> Para o envio dos dados será utilizado a função push do array em js</li>
+                <li>Codificação da rota</li>
+                <code>
+                    app.post('/cursos', (req, res) => { <br />
+                        &nbsp; const {name} = req.body; <br />
+                        &nbsp; cursos.push(name) <br />
+                        &nbsp; // Retorno dos dados via json <br />
+                        &nbsp; return res.json(cursos); <br />
+                      })
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>POST</b> na URL</li>
+                <li>Na aba Body, selecione a opção <b>JSON</b> e digite o seguinte JSON:
+                    <br /> <code>{ "name": "Angular" }</code></li>
+                <li>Digite na URL <b>http://localhost:4000/cursos</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>  
+                <img src="img/aula3/insomnia-8-post.png" alt="Insomnia" class="img-fluid">
+
+            </ol>
+            <hr>
+            <b>Requisição PUT - Atualizar um Curso</b>
+            <p>
+                Para atualizar um curso, é necessário passar o índice do curso na URL e o novo nome do curso no corpo da
+                requisição.
+            </p>
+            <ol>
+                <li>Crie uma nova rota com o método PUT e o caminho <code>/cursos/:index</code></li>
+                <li>No callback da rota, obtenha o valor do parâmetro <code>index</code> usando
+                    <code>req.params</code></li>
+                <li>Obtenha o novo nome do curso usando <code>req.body</code></li>
+                <li>Atualize o valor do curso no array <code>cursos</code> com o novo nome</li>
+                <li>Retorne o array <code>cursos</code> em formato JSON</li>
+                <li> Codificação </li>
+                <code>
+                    app.put('/cursos/:index', (req, res) => { <br />
+                        &nbsp; const {index} = req.params; <br />
+                        &nbsp; const {name} = req.body; <br />
+                        &nbsp; cursos[index] = name; <br />
+                        &nbsp; return res.json(cursos); <br />
+                      })
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>PUT</b> na URL</li>
+                <li>Na aba Body, selecione a opção <b>JSON</b> e digite o seguinte JSON:
+                    <br /> <code>{ "name": "React Native" }</code></li>
+                <li>Digite na URL <b>http://localhost:4000/cursos/1</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <img src="img/aula3/insomnia-9-put.png" alt="Insomnia" class="img-fluid">
+                <li>OBS: O índice 1 corresponde ao curso 'Javascript'</li>
+                <li>Após a requisição, o curso Javascript foi atualizado para 'React Native'</li>
+            </ol>
+            <hr>
+            <b>Requisição DELETE - Deletar um Curso</b>
+            <p>
+                Para deletar um curso, é necessário passar o índice do curso na URL.
+            </p>
+            <ol>
+                <li>Crie uma nova rota com o método DELETE e o caminho <code>/cursos/:index</code></li>
+                <li>No callback da rota, obtenha o valor do parâmetro <code>index</code> usando
+                    <code>req.params</code></li>
+                <li>Remova o curso do array <code>cursos</code> usando <code>cursos.splice(index, 1)</code></li>
+                <li>Retorne o array <code>cursos</code> em formato JSON</li>
+                <li> Codificação </li>
+                <code>
+                    app.delete('/cursos/:index', (req, res) => { <br />
+                        &nbsp; const {index} = req.params; <br />
+                        &nbsp; cursos.splice(index, 1); <br />
+                        &nbsp; return res.json(cursos); <br />
+                      })
+                </code>
+                <li>Abra o Insomnia</li>
+                <li>Crie uma nova requisição, com a tecla de atalho ctrl + N</li>
+                <li>Renomeie a requisição com um clique duplo sobre <b>New Request</b></li>
+                <li>Selecione o método <b>DELETE</b> na URL</li>
+                <li>Digite na URL <b>http://localhost:4000/cursos/0</b> e clique no botão
+                    <b>Send</b> para efetuar a requisição
+                </li>
+                <img src="img/aula3/insomnia-10-delete.png" alt="Insomnia" class="img-fluid">
+                <li>OBS: O índice 0 corresponde ao curso 'Node Js'</li>
+                <li>Após a requisição, o curso Node Js foi deletado do array</li>
+                
+            </ol>
+
+
+
+
+
+
+
+
+
+        </section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

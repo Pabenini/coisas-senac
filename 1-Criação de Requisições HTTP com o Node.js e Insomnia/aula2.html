@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="img-fluid border mx-auto d-block" src="img/Logo.jpg" alt="Logotipo SENAC">
+        <nav class="text-center">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="aula1.html">Aula 1</a></li>
+                <li><a href="aula2.html">Aula 2</a></li>
+                <li><a href="aula3.html">Aula 3</a></li>
+                <li><a href="aula4.html">Aula 4</a></li>
+                <li><a href="atividade.html">Atividade</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <section>
+            <h2 class="text-center">
+                <b>Aula 2</b> - Configuração inicial do Projeto
+            </h2>
+            <hr>
+
+            Nesta aula, vamos configurar o ambiente de desenvolvimento para o projeto e criar a primeira requisição
+            <hr>
+            <b>Node Js</b>
+            <ol>
+                <li>
+                    Abra o terminal <b> Node.js command prompt </b> para criar o projeto em seu computador.
+                    <br />
+                    <img src="img/aula2/node-2.png" alt="Node Js" class="img-fluid">
+
+                </li>
+                <li>
+                    Navegue até a pasta onde deseja criar o projeto. Para isso utilize os comandos <b>"cd + o nome do
+                        diretório" </b>
+                    para acessar a o diretório desejado, e <b> "cd.." </b> para sair do diretório.
+                    <br />
+                    Em meu caso ao abrir o node ele apresenta o seguinte caminho: <b> C:\Users\nelci </b> e eu quero
+                    criar meu projeto dentro de <b> C:\Node. </b>
+                    <br />
+                    Para isso eu devo sair do diretório <b> nelci </b> e posteriormente sair do diretório <b> Users </b>
+                    com
+                    o seguinte comando <code> cd.. </code> e novamente <code> cd.. </code> pois o diretório <b> Node
+                    </b> está na raiz do disco <b> C: </b> - Após estar exatamente na raiz do disco <b> C: </b> execute
+                    o comando mkdir para criar o diretório <b> Node </b> e em seguida acesse-o com o comando
+                    <code> cd Node </code>. Veja os comandos na imagem abaixo:
+                    <br />
+                    <img src="img/aula2/node-3.png" alt="Node Js" class="img-fluid">
+                    <br />
+                    Após acessar o diretório Node, crie um novo diretório com o comando
+                    <code> mkdir api_restFull </code> e acesse este diretório com o comando
+                    <code> cd api_restFull </code>
+                    <br />
+                    <img src="img/aula2/node-4.png" alt="Node Js" class="img-fluid">
+                </li>
+                <li>
+                    Agora vamos criar o projeto. Para
+                    isso execute o comando <code> npm init -y </code>. Este comando cria o arquivo <b> package.json </b>
+                    com as configurações padrão.
+                    <br />
+                    <img src="img/aula2/node-5.png" alt="Node Js" class="img-fluid">
+                </li>
+                <li>
+                    Após criar o projeto, vamos instalar o express. O express é um framework para Node.js que fornece
+                    recursos mínimos para construção de servidores web.
+                    <br />
+                    Para instalar o express execute o comando
+                    <br />
+                    <code> npm install express </code>
+                    <br />
+                    <img src="img/aula2/node-6-express.png" alt="Node Js" class="img-fluid">
+                </li>
+                <li>
+                    Após instalar o express, vamos instalar o nodemon. O nodemon é uma ferramenta que ajuda a
+                    desenvolver
+                    aplicativos baseados em node.js reiniciando automaticamente a aplicação quando houver alterações no
+                    código fonte.
+                    <br />
+                    Para instalar o nodemon execute o comando
+                    <br />
+                    <code> npm install nodemon -g </code>
+                    <br />
+                    <img src="img/aula2/node-7-nodemon.png" alt="Node Js" class="img-fluid">
+                </li>
+            </ol>
+            <hr>
+            <b>Visual Studio Code</b>
+            <ol>
+                <li>
+                    Abra o Visual Studio Code e clique em <b> File > Add Folder to Workspace </b> para abrir o projeto
+                    criado.
+                </li>
+                <li>
+                    Selecione a pasta do projeto e clique em <b> add </b>.
+                </li>
+                <li>
+                    Após adicionar, abra o arquivo package.json e visualize a estrutura do projeto no Visual Studio
+                    Code.
+                    <br />
+                    <img src="img/aula2/vsc-1.png" alt="Visual Studio Code" class="img-fluid">
+                </li>
+
+                <li>
+                    Crie um novo arquivo chamado <b> app.js </b> e adicione o seguinte código:
+                    <br />
+                    <code>
+                        const express = require('express');
+                        const app = express();
+                        const port = 4000;
+                        <br />
+                        app.get('/', (req, res) => {
+                            res.send('Rota Inicial do Projeto');
+                        });
+                        <br />                        
+                        app.listen(port, () => {
+                            console.log('Servidor Iniciado na porta');
+                        });
+                    </code>
+                    <br />
+                    <img src="img/aula2/vsc-2-codigo-inicial.png" alt="Visual Studio Code" class="img-fluid">
+                </li>
+                <li>
+                    Essa codificação possui 3 partes:
+                    <ol>
+                        <li>
+                            <b> const express = require('express'); </b> - Importa o módulo express.
+                            <br />
+                            <b> const app = express(); </b> - Cria uma instância do express.
+                            <br />
+                            <b> const port = 4000; </b> - Define a porta que o servidor irá escutar.
+                        </li>
+                        <li>
+                            <b> app.get('/', (req, res) => { res.send('Rota Inicial do Projeto'); }); </b> - Cria uma
+                            rota
+                            que responde a requisições GET na raiz do projeto.
+                        </li>
+                        <li>
+                            <b> app.listen(port, () => { console.log('Servidor Iniciado na porta'); }); </b> - Inicia o
+                            servidor na porta definida.
+                        </li>
+
+                    </ol>
+                    <hr>
+                    <b>Node Js Command Prompt</b>
+                    <ol>
+                        <li>
+                            Abra o terminal Node js Command Prompt, navegue até a pasta do projeto e execute o comando
+                            <br />
+                            <code> nodemon app.js </code>
+                            <br />
+                            para iniciar o servidor.
+                            <br />
+                            <img src="img/aula2/node-8-nodemon-app.png" alt="Node Js" class="img-fluid">
+                        </li>
+                    </ol>
+                    <hr>
+                    <b>Node Js Command Prompt</b>
+                    <ol>
+                        <li>
+                            Abra o navegador e acesse o endereço <b> http://localhost:4000 </b> para visualizar a
+                            mensagem
+                            <b> Rota Inicial do Projeto </b>.
+                            <br />
+                            <img src="img/aula2/navegador-1-rota-inicial.png" alt="Node Js" class="img-fluid">
+
+                        </li>
+                    </ol>
+                    <p>
+                        Pronto! Projeto criado e configurado com a primeira requisição do tipo GET.
+                    </p>
+
+
+
+
+
+        </section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
