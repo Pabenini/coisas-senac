@@ -1,0 +1,285 @@
+Documentação -> https://expo.dev/
+
+
+- Abra no Node Js Command Prompt e defina um local para o projeto
+
+- Instalação do EXPO
+	(via Node Js Command Promtp) npm install -g expo
+
+
+1. Criação do Projeto 
+	-> (via node js command prompt)  npx create-expo-app nome_projeto
+
+	Exemplo:
+	-> (via node js command prompt) npx create-expo-app app-coffee-wp
+
+----------------
+
+2. Acessar o Projeto via Node Js Command Prompt
+
+
+----------------
+
+
+3. Pra utilizar menos arquivos
+	-> (via node js command prompt) npm run reset-project
+
+----------------
+
+
+4. Executar o Projeto
+	-> (via node js command prompt) npx expo start
+
+Para visualização do navegador pressione W
+
+Para visualização no app EXPO leia o QRCODE
+
+----------------
+
+
+5. Abra o Projeto no Visual Studio Code
+
+----------------
+
+
+6. Imagens do Projeto -> As imagens serão salvas dentro do diretório "assets/images"
+
+----------------
+
+
+7. O projeto criado com o React-Native possui em sua estrutura inicial 2 arquivos dentro do diretório "app"
+	- "app/_layout.tsx" 
+	- "app/index.tsx" 
+
+As extensões dos arquivos podem ser "tsx" => typescript ou "js" => javascript
+
+*******
+"app/_layout.tsx" => Esse arquivo é responsável pelas Rotas da Aplicação e configuração da Barra de Navegação
+
+"app/index.tsx" => Esse arquivo é responsável pela renderização inicial da aplicação
+
+----------------
+
+8. Navegação na aplicação
+
+Para a navegação é utilizado o componente "LINK" do "expo-router" e é necessário criar a rota no arquivo "_layout.js"
+
+----------------
+
+9. Rotas e Configurações de estilo da barra de navegação no Projeto "app-coffee-wp"
+
+********
+"app/_layout.tsx"
+
+
+import { Stack } from "expo-router";
+
+export default function RootLayout() {
+  return (
+    <Stack
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: "#010101",
+        },
+        headerTintColor: "#fff",
+        headerTitleStyle: {
+          fontWeight: "bold",
+        },
+        headerTitleAlign: "center", // Centraliza o título na barra de navegação
+      }}
+    >
+      {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
+      <Stack.Screen name="index" options={{ title: "Coffee WP" }} />
+    </Stack>
+  );
+}
+
+----------------------------------------
+
+NAVEGAÇÃO - Expo Router
+
+PILHA - https://docs.expo.dev/router/advanced/stack/
+
+
+---------------------------------------
+
+
+
+
+
+==============================================================
+
+GIT E GITHUB
+
+EXEMPLOS DE VINCULAÇÃO DE PROJETO
+
+1. Instale o Git na máquina, Dê um botão direito na pasta do projeto e selecione "Open Git Bash Here"
+2. Configure o e-mail 
+	git config –global user.name “Seu Nome”
+	git config –global user.email “Seu E-mail”
+
+3. Inicie o Git
+	git init
+
+4. Verifique o Status
+	git status
+
+5. Crie o Repositório no GitHub - GitHub.com - New Repositório
+6. Vincule o Repositório Local ao Repositório no GitHub
+
+	git remote add origin https://github.com/professornelcimariano/projeto_react_cinema.git
+
+7. Exibe o Repositório vinculado
+	git remote -v
+
+8. Insira os arquivos na Área Intermediária
+	git add .
+
+9. Verifique o Status
+	git status
+
+10. Commite dos arquivos no Repositório Remoto
+	git commit -m "1 Commit do Projeto - Preparação do projeto, Componentes iniciais e Page Home"
+
+11. Enviar os arquivos para o Repositório Remoto - O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+	git push -u origin master
+
+12. Visualize os arquivos no Repositório Remoto - Branch Master
+
+13. Verifique o Status
+	git status
+
+----------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+Iniciar o Git
+	git init
+
+Configurar Nome de Usuário
+	git config --global user.name “Nelci Mariano”​
+
+Configurar E-mail
+	git config --global user.email “professornelcimariano@gmail.com”
+
+Verificar e-mail de usuário (Escreva o comando no git pois ele pode não reconhecer ao copiar e colar)
+	git config user.email​
+
+Ver status dos arquivos
+	git status
+
+Vincular repositório local com um repositório remoto​
+	git remote add origin + (url do repositósio no GitHub) https://github.com/professornelcimariano/projeto_aula_git.git​
+
+	git remote add origin https://github.com/professornelcimariano/projeto_django2.git
+
+Exibe as conexões
+	git remote -v
+
+** Em caso de error - remova o Origin
+	git remote remove origin
+
+Crie o arquivo .gitignore para que arquivos específicos não sejam enviados para o git
+	.gitignore
+
+Adicionar arquivos na zona intermediária
+	git add .
+
+Commit
+	git commit -m "comentário qualquer"​
+
+	git commit -m "1º Commit do Projeto"
+
+Enviar arquivos para o GitHub
+	git push -u origin master
+ou
+	git push -u origin main
+
+
+Criar Branch main e alternar pra ela
+	git checkout -b main 
+
+Trocar a Branch
+	git branch -M main
+
+
+
+Para Trazer os arquivos da Branch main no repositório remoto para o repositório local​
+	git pull origin "main" ou 
+	git pull origin "master" 
+
+Renomear Branch
+	git branch –m main master​
+
+Alternar Branch
+	git checkout master​
+
+Listar Branch
+	git Branch --list​
+
+Vincular repositório local com um repositório remoto​
+	git remote add origin + (url do repositósio no GitHub) https://github.com/professornelcimariano/projeto_aula_git.git​
+
+Você pode remover conta vinculada do Git / GitHub
+git remote remove origin
+
+Exibir alterações no arquivo
+	git diff​
+		Para sair do comando git diff, pode pressionar Q maiúsculo
+
+Enviar arquivos para o GitHub
+	git push -u origin master
+ou
+	git push -u origin main
+
+OBS: ***** Pode ser que ocorra erros ao enviar as alteraçõesa para o GitHub, por isso puxe os dados do github com o comando pull
+	-> Trazer alterações do Repositório Remoto
+	-> git pull origin​
+
+Possíveis resoluções de erros 
+	-> git merge
+	
+	ERRO -> (fatal: refusing to merge unrelated histories)
+	Resolução -> git pull origin nome_da_branch --allow-unrelated-histories
+
+
+Clonar Repositório
+	git clone https://github.com/professornelcimariano/app-coffee-wp.git
+
+Exibe o repositório do github vinculado
+	Git Remote -v
+	
+----------------------------------------------
+
+git clone
+
+git remote add origin https://github.com/treinaweb/treinaweb-react-introducao.git
+
+git remote -v (Exibe as conexões)
+
+git pull (Traz os arquivos remotos)
+
+*git pull origin (traz a branch principal)
+
+obs: depois do git pull origin, acessar a pasta que ele criou
+
+git branch (Exibe a branch que está)
+
+git branch -a (Lista as Branchs)
+
+git push -u origin name_new_branch (Cria uma nova branch no repositório remoto)
+
+git reset --hard origin/main (Desfaz erros por exemplo de branchs secundárias inseridas na branch principal, volta tudo da branch principal)
+
+Cria a branch
+git checkout -b name_new_b (Cria a nova branch e já acessa ela mesma - local)
+
+Após criar a branch é preciso baixar o conteúdo
+git pull origin name_new_branch (Traz a branch name_new_branch )
+
+Exibir os repositórios remotos
+git remote
+git remote -v                  
